@@ -1,0 +1,74 @@
+name: Test carousel post
+
+# Manual run only: Actions tab > "Test carousel post" > Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish to Instagram? (false = dry run, stops before posting)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      # Each run gets its own folder so Instagram never fetches a cached old image.
+      - run: python scripts/make_test_slides.py "site/runs/${{ github.run_id }}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  publish:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Wait until images are public
+        run: |
+          PAGE="${{ needs.deploy.outputs.page_url }}"
+          BASE="${PAGE%/}/runs/${{ github.run_id }}"
+          echo "IMAGE_BASE_URL=$BASE" >> "$GITHUB_ENV"
+          for i in $(seq 1 30); do
+            if curl -sfI "$BASE/slide-1.jpg" | grep -qi "content-type: image/jpeg"; then
+              echo "Images live at $BASE"; exit 0; fi
+            sleep 10
+          done
+          echo "Images never became public"; exit 1
+      - name: Create carousel (and publish if chosen)
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLIDE_COUNT: "5"
+          PUBLISH: ${{ inputs.publish }}
+          CAPTION: "Inner Moon pipeline test. This post will be removed."
+        run: python scripts/publish_carousel.py
