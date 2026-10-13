@@ -1,0 +1,142 @@
+{
+ "date": "2026-10-13",
+ "positions": {
+  "Sun": {
+   "sign": "Libra",
+   "degree": 20.17,
+   "retrograde": false,
+   "sign_start": "Libra",
+   "sign_end": "Libra",
+   "signs_today": [
+    "Libra"
+   ]
+  },
+  "Moon": {
+   "sign": "Scorpio",
+   "degree": 23.36,
+   "retrograde": false,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Mercury": {
+   "sign": "Scorpio",
+   "degree": 15.14,
+   "retrograde": false,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Venus": {
+   "sign": "Scorpio",
+   "degree": 6.45,
+   "retrograde": true,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Mars": {
+   "sign": "Leo",
+   "degree": 8.81,
+   "retrograde": false,
+   "sign_start": "Leo",
+   "sign_end": "Leo",
+   "signs_today": [
+    "Leo"
+   ]
+  },
+  "Jupiter": {
+   "sign": "Leo",
+   "degree": 21.71,
+   "retrograde": false,
+   "sign_start": "Leo",
+   "sign_end": "Leo",
+   "signs_today": [
+    "Leo"
+   ]
+  },
+  "Saturn": {
+   "sign": "Aries",
+   "degree": 10.6,
+   "retrograde": true,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Uranus": {
+   "sign": "Gemini",
+   "degree": 5.26,
+   "retrograde": true,
+   "sign_start": "Gemini",
+   "sign_end": "Gemini",
+   "signs_today": [
+    "Gemini"
+   ]
+  },
+  "Neptune": {
+   "sign": "Aries",
+   "degree": 2.52,
+   "retrograde": true,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Pluto": {
+   "sign": "Aquarius",
+   "degree": 3.07,
+   "retrograde": true,
+   "sign_start": "Aquarius",
+   "sign_end": "Aquarius",
+   "signs_today": [
+    "Aquarius"
+   ]
+  }
+ },
+ "ingresses": [],
+ "stations": [],
+ "aspects": [
+  {
+   "a": "Moon",
+   "aspect": "square",
+   "b": "Jupiter",
+   "utc": "2026-10-13T08:45:42.430923+00:00"
+  }
+ ],
+ "lunar_event": null,
+ "moon": {
+  "illumination": 8,
+  "waxing": true,
+  "phase": "Waxing Crescent"
+ },
+ "moon_house_by_sign": {
+  "Aries": 8,
+  "Taurus": 7,
+  "Gemini": 6,
+  "Cancer": 5,
+  "Leo": 4,
+  "Virgo": 3,
+  "Libra": 2,
+  "Scorpio": 1,
+  "Sagittarius": 12,
+  "Capricorn": 11,
+  "Aquarius": 10,
+  "Pisces": 9
+ },
+ "retrograde": [
+  "Venus",
+  "Saturn",
+  "Uranus",
+  "Neptune",
+  "Pluto"
+ ]
+}
