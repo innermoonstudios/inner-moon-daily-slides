@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-17",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-17.json",
+ "caption": "The Moon puts on her blazer: Capricorn mode.\n\nThe Moon is in Capricorn and squares Saturn in Aries. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Saturday · Waxing crescent · Libra season",
+   "headline": "The Moon puts on her blazer: Capricorn mode.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon climbs to your career house and squares Saturn in your sign. Slow and steady wins: pick one ambition and tend it.",
+   "question": "Which goal deserves my patience this week?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon tidies your house of daily rhythms. Mars in your sign wants action, so pour it into one small, satisfying routine.",
+   "question": "What tiny habit would make tomorrow easier?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon moves into your house of values. Treat yourself kindly and take stock of everything you already have.",
+   "question": "What feels truly abundant in my life right now?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your weekend reset.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

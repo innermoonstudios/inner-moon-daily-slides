@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-14",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-14.json",
+ "caption": "The Moon is in Sagittarius and she wants an adventure.\n\nThe Moon is in Sagittarius, trining Mars and Saturn and opposing Uranus. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wednesday · Waxing crescent · Libra season",
+   "headline": "The Moon is in Sagittarius and she wants an adventure.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon lights up your house of deep bonds. Venus, your ruler, is retrograde, so revisit an old promise before making a new one.",
+   "question": "Which promise to myself deserves a second look?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon warms your home zone and teases you to loosen the schedule. A long dinner at home counts as productive.",
+   "question": "Where can I let comfort win over perfect?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon wanders through your most private house. Step back, dream a little, and let your next goal reveal itself.",
+   "question": "What do I want when no one is watching?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

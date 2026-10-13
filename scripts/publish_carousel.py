@@ -79,6 +79,10 @@ def main():
     post = call("POST", f"{ig_id}/media_publish", creation_id=carousel["id"])
     link = call("GET", post["id"], fields="permalink").get("permalink", "")
     print(f"Published post {post['id']} {link}")
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out:
+        with open(gh_out, "a") as f:
+            f.write(f"permalink={link or post['id']}\n")
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a") as f:

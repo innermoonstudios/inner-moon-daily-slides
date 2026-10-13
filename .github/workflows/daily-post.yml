@@ -1,0 +1,101 @@
+name: Daily post
+
+# Posts queue/<today>.json to @innermoonstore at 8:00 America/New_York.
+# Two cron times cover daylight saving (12:00 UTC = 8am EDT, 13:00 UTC = 8am EST); today.py
+# skips before 8am and never posts the same day twice.
+# To hold a day: set "status": "hold" in its queue file. To post by hand: Actions > Daily post > Run workflow.
+on:
+  schedule:
+    - cron: "0 12 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Queue date to post (YYYY-MM-DD). Blank = today in New York."
+        required: false
+      publish:
+        description: "Publish to Instagram? (false = dry run)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      post: ${{ steps.today.outputs.post }}
+      date: ${{ steps.today.outputs.date }}
+      slides: ${{ steps.today.outputs.slides }}
+      caption: ${{ steps.today.outputs.caption }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
+      - id: today
+        env:
+          POST_DATE: ${{ inputs.date }}
+        run: python scripts/today.py "site/runs/${{ github.run_id }}"
+      - if: steps.today.outputs.post == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.post == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  publish:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Wait until images are public
+        run: |
+          PAGE="${{ needs.deploy.outputs.page_url }}"
+          BASE="${PAGE%/}/runs/${{ github.run_id }}"
+          echo "IMAGE_BASE_URL=$BASE" >> "$GITHUB_ENV"
+          for i in $(seq 1 30); do
+            if curl -sfI "$BASE/slide-1.jpg" | grep -qi "content-type: image/jpeg"; then
+              echo "Images live at $BASE"; exit 0; fi
+            sleep 10
+          done
+          echo "Images never became public"; exit 1
+      - id: ig
+        name: Create carousel and publish
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLIDE_COUNT: ${{ needs.build.outputs.slides }}
+          PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+          CAPTION: ${{ needs.build.outputs.caption }}
+        run: python scripts/publish_carousel.py
+      - name: Mark the day as published
+        if: steps.ig.outputs.permalink != ''
+        run: |
+          python scripts/mark_published.py "${{ needs.build.outputs.date }}" "${{ steps.ig.outputs.permalink }}"
+          git config user.name "inner-moon-bot"
+          git config user.email "innermoonstudios@users.noreply.github.com"
+          git add queue && git commit -m "Published ${{ needs.build.outputs.date }}"
+          git pull --rebase && git push

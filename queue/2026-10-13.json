@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-13",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-13.json",
+ "caption": "Venus is retrograde and the Moon is keeping secrets.\n\nThe Moon is in Scorpio with Venus, who is retrograde there, and she squares Jupiter in Leo. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tuesday · Waxing crescent · Libra season",
+   "headline": "Venus is retrograde and the Moon is keeping secrets.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon slips into your house of intimacy. Let someone see the soft part you usually guard; trust grows slowly and surely.",
+   "question": "Who have I been ready to trust a little more?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon settles into your home zone while squaring Jupiter in your sign. Big plans can wait. Tonight, nest.",
+   "question": "What would make my home feel like a hug tonight?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon drifts through your quiet, dreamy corner before arriving in your sign tonight. Rest now; the next idea will find you.",
+   "question": "What am I ready to whisper to myself before I say it out loud?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

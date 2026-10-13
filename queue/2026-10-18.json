@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-18",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-18.json",
+ "caption": "Half lit and fully decided: the First Quarter Moon.\n\nThe Moon reaches First Quarter in Capricorn, squaring the Sun in Libra. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sunday · First Quarter Moon · Libra season",
+   "headline": "Half lit and fully decided: the First Quarter Moon.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The First Quarter Moon lights your house of big ideas and journeys. Book the class, plan the trip, or simply wander.",
+   "question": "Where is my curiosity pulling me?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon hits First Quarter in your house of joy and creativity. Make something just for fun. No grading allowed.",
+   "question": "When did I last play without a goal?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The First Quarter Moon is in your sign. A gentle push: choose, commit, and let the rest of the plan catch up.",
+   "question": "What am I ready to decide today?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

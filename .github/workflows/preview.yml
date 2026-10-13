@@ -1,0 +1,32 @@
+name: Preview queue
+
+# Renders every upcoming queue day (no posting) whenever the queue, templates or brand change.
+# Download the "preview" artifact from the run to review the slides.
+on:
+  push:
+    branches: [main]
+    paths: ["queue/*.json", "templates/**", "brand/**", ".github/workflows/preview.yml"]
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
+      - name: Render upcoming days
+        run: |
+          TODAY=$(TZ=America/New_York date +%F); FAIL=0
+          for f in queue/20*.json; do
+            d=$(basename "$f" .json); [[ "$d" < "$TODAY" ]] && continue
+            python templates/render.py "$f" "preview/$d" || FAIL=1
+          done
+          exit $FAIL
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: preview
+          path: preview

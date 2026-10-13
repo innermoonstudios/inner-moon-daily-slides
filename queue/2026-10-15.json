@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-15",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-15.json",
+ "caption": "The Sun and Jupiter are flirting, and everyone's invited.\n\nThe Sun in Libra sextiles Jupiter in Leo, and the Moon in Sagittarius trines Jupiter too. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Thursday · Waxing crescent · Libra season",
+   "headline": "The Sun and Jupiter are flirting, and everyone's invited.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon sits in your partnership house, opposite your sign. Let someone else lead the conversation; you'll learn something lovely.",
+   "question": "Who do I want to know better this season?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "It's your season, and the Sun is high-fiving lucky Jupiter. The Moon in your house of words says: send the message.",
+   "question": "What would I say if I trusted it would land well?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon lights your friendship house while Jupiter beams from your opposite sign. Say yes to the group plan.",
+   "question": "Which friend makes me feel most like myself?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

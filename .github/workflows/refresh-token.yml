@@ -1,0 +1,27 @@
+name: Refresh Instagram token
+
+# Long-lived Instagram tokens last 60 days. This refreshes IG_ACCESS_TOKEN every Monday
+# and writes the new one back into the repo secret using GH_TOKEN (needs "Secrets: Read and write").
+on:
+  schedule:
+    - cron: "30 14 * * 1"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh and store
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          RESP=$(curl -s -G "https://graph.instagram.com/refresh_access_token" \
+                 --data-urlencode "grant_type=ig_refresh_token" \
+                 --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+          NEW=$(echo "$RESP" | jq -r '.access_token // empty')
+          if [ -z "$NEW" ]; then echo "Refresh failed: $(echo "$RESP" | jq -c '.error // .')"; exit 1; fi
+          echo "::add-mask::$NEW"
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW"
+          DAYS=$(( $(echo "$RESP" | jq -r '.expires_in') / 86400 ))
+          echo "Token refreshed; valid for $DAYS more days." | tee -a "$GITHUB_STEP_SUMMARY"

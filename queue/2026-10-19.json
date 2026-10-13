@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-19",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-19.json",
+ "caption": "The Moon is in Aquarius and feeling delightfully odd.\n\nThe Moon is in Aquarius, meeting Pluto and trining Uranus in Gemini. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Monday · First Quarter Moon · Libra season",
+   "headline": "The Moon is in Aquarius and feeling delightfully odd.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon trines Uranus in your sign from your house of adventure. An unusual idea is worth chasing today.",
+   "question": "What new idea keeps tapping me on the shoulder?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon dances through your house of romance and play. Venus, your ruler, is retrograde, so an old flame of an idea may return.",
+   "question": "What used to light me up that I could revisit?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon meets Pluto in your sign. You're shedding an old skin; let the new you stay a little mysterious.",
+   "question": "What am I outgrowing, sweetly and surely?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
