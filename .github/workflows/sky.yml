@@ -1,0 +1,35 @@
+name: Compute sky
+
+# Writes sky/days/<date>.json for the next 21 days. Runs daily, on changes to the sky code, or by hand.
+on:
+  schedule:
+    - cron: "15 9 * * *"
+  push:
+    branches: [main]
+    paths: ["sky/*.py", ".github/workflows/sky.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  sky:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ephem==4.2.1
+      - run: cd sky && python build_sky.py 21
+      - name: Commit sky files
+        run: |
+          git config user.name "inner-moon-bot"
+          git config user.email "innermoonstudios@users.noreply.github.com"
+          git add sky/days
+          git diff --cached --quiet || git commit -m "Sky files $(date -u +%F)"
+          git pull --rebase && git push
