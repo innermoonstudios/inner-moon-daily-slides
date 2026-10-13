@@ -20,6 +20,9 @@ Automated daily Instagram carousels for [@innermoonstore](https://www.instagram.
 
 ## Daily content (since 2026-10-12)
 - `sky/`: ephemeris code (from inner-moon-interior). `sky/days/<date>.json` is computed daily, 21 days ahead, by **Compute sky**.
+  Each file covers one New York calendar day (midnight to midnight ET, `"tz"` field), so events land on the
+  date US readers see; use `phase_label` for the kicker. Copy may only state what a sky file says (no durations,
+  event order or future positions), with timing words relative to the 8:00 am ET post.
 - `queue/<date>.json`: one post per day (rotating Fire → Earth → Air → Water). `"status": "approved"` posts at 8:00 New York time;
   set `"hold"` to skip a day. After posting, the bot sets `"published"` and the permalink. Weekly batches are written by a Claude
   scheduled task from the sky files and `brand/voice.md`.

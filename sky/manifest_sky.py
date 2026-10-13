@@ -13,6 +13,7 @@ degrees quoted from either module agree.
 """
 import datetime as dt
 import sys
+from zoneinfo import ZoneInfo
 
 import ephem
 
@@ -82,13 +83,22 @@ def _wrap(x):
 
 
 # ------------------------------------------------------------------ one day
-def day(date):
-    """Everything overhead during one UTC calendar day."""
-    t0 = dt.datetime(date.year, date.month, date.day, tzinfo=UTC)
-    t1 = t0 + dt.timedelta(days=1)
-    noon = t0 + dt.timedelta(hours=12)
-    hours = [t0 + dt.timedelta(hours=h) for h in range(25)]
-    out = {"date": date.isoformat(), "positions": {}, "ingresses": [], "stations": [],
+def day(date, tz=UTC):
+    """Everything overhead during one calendar day, midnight to midnight in `tz`.
+
+    The default is a UTC day, which the printed products use (a stock book has
+    no single reader). The daily Instagram posts are read in the US, so their
+    sky file should pass tz=ZoneInfo("America/New_York"): several events fall on
+    a different calendar date there (Mars into Leo is 27 Sep 2026 in New York,
+    28 Sep in UTC; Pluto turns direct 15 Oct vs 16 Oct). Steps are taken in UTC
+    so a daylight-saving change gives a 23- or 25-hour day, not a wrong one.
+    """
+    t0 = dt.datetime(date.year, date.month, date.day, tzinfo=tz).astimezone(UTC)
+    t1 = dt.datetime.combine(date + dt.timedelta(days=1), dt.time(), tzinfo=tz).astimezone(UTC)
+    noon = dt.datetime.combine(date, dt.time(12), tzinfo=tz).astimezone(UTC)
+    n_hours = round((t1 - t0).total_seconds() / 3600)
+    hours = [t0 + dt.timedelta(hours=h) for h in range(n_hours + 1)]
+    out = {"date": date.isoformat(), "tz": str(tz), "positions": {}, "ingresses": [], "stations": [],
            "aspects": [], "lunar_event": None}
 
     for body in BODIES:
@@ -122,14 +132,14 @@ def day(date):
             for asp, angle in ASPECTS.items():
                 for target in {angle, (360 - angle) % 360}:
                     f = [_wrap(lons[h][a] - lons[h][b] - target) for h in hours]
-                    for k in range(24):
+                    for k in range(n_hours):
                         if (f[k] < 0) != (f[k + 1] < 0) and abs(f[k]) < 20:
                             t = _bisect(lambda x: _wrap(lon(a, x) - lon(b, x) - target),
                                         hours[k], hours[k + 1])
                             out["aspects"].append({"a": a, "aspect": asp, "b": b,
                                                    "utc": t.isoformat()})
 
-    e = ephem.Date(t0.replace(tzinfo=None))
+    e = ephem.Date(t0.replace(tzinfo=None))   # t0 is already UTC
     for name, fn in (("New Moon", ephem.next_new_moon), ("First Quarter", ephem.next_first_quarter_moon),
                      ("Full Moon", ephem.next_full_moon), ("Last Quarter", ephem.next_last_quarter_moon)):
         t = L.to_dt(fn(e))
@@ -138,7 +148,7 @@ def day(date):
                                   "sign": sign_of(lon("Moon", t))[0],
                                   "degree": round(sign_of(lon("Moon", t))[1], 2)}
     m = ephem.Moon(ephem.Date(noon.replace(tzinfo=None)))
-    elong = (lons[hours[12]]["Moon"] - lons[hours[12]]["Sun"]) % 360
+    elong = (lon("Moon", noon) - lon("Sun", noon)) % 360
     out["moon"] = {"illumination": round(m.moon_phase * 100), "waxing": elong < 180,
                    "phase": phase_name(elong)}
     return out
@@ -152,8 +162,8 @@ def phase_name(elong):
             return name
 
 
-def cycle(dates):
-    return {d.isoformat(): day(d) for d in dates}
+def cycle(dates, tz=UTC):
+    return {d.isoformat(): day(d, tz) for d in dates}
 
 
 def in_orb(sky_day, a, aspect, b):
@@ -161,7 +171,9 @@ def in_orb(sky_day, a, aspect, b):
     for x in sky_day["aspects"]:
         if {x["a"], x["b"]} == {a, b} and x["aspect"] == aspect:
             return True
-    noon = dt.datetime.fromisoformat(sky_day["date"]).replace(tzinfo=UTC) + dt.timedelta(hours=12)
+    tz = ZoneInfo(sky_day["tz"]) if sky_day.get("tz", "UTC") != "UTC" else UTC
+    noon = dt.datetime.combine(dt.date.fromisoformat(sky_day["date"]), dt.time(12),
+                               tzinfo=tz).astimezone(UTC)
     sep = abs(_wrap(lon(a, noon) - lon(b, noon)))
     orb = ORB["Moon"] if "Moon" in (a, b) else ORB["default"]
     return abs(sep - ASPECTS[aspect]) <= orb
