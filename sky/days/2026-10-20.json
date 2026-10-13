@@ -1,9 +1,10 @@
 {
  "date": "2026-10-20",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 27.12,
+   "degree": 27.28,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,7 +14,7 @@
   },
   "Moon": {
    "sign": "Aquarius",
-   "degree": 17.29,
+   "degree": 19.34,
    "retrograde": false,
    "sign_start": "Aquarius",
    "sign_end": "Aquarius",
@@ -23,7 +24,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 20.11,
+   "degree": 20.18,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +34,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 2.95,
+   "degree": 2.85,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -43,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 12.63,
+   "degree": 12.72,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 22.78,
+   "degree": 22.81,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.07,
+   "degree": 10.06,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -83,7 +84,7 @@
   },
   "Neptune": {
    "sign": "Aries",
-   "degree": 2.35,
+   "degree": 2.34,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -114,12 +115,6 @@
   {
    "a": "Moon",
    "aspect": "opposite",
-   "b": "Mars",
-   "utc": "2026-10-20T02:24:27.178401+00:00"
-  },
-  {
-   "a": "Moon",
-   "aspect": "opposite",
    "b": "Jupiter",
    "utc": "2026-10-20T22:49:19.355868+00:00"
   },
@@ -132,10 +127,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 67,
+  "illumination": 69,
   "waxing": true,
   "phase": "Waxing Gibbous"
  },
+ "phase_label": "Waxing gibbous",
  "moon_house_by_sign": {
   "Aries": 11,
   "Taurus": 10,

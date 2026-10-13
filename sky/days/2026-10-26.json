@@ -1,9 +1,10 @@
 {
  "date": "2026-10-26",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Scorpio",
-   "degree": 3.09,
+   "degree": 3.25,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -13,7 +14,7 @@
   },
   "Moon": {
    "sign": "Taurus",
-   "degree": 7.45,
+   "degree": 9.87,
    "retrograde": false,
    "sign_start": "Taurus",
    "sign_end": "Taurus",
@@ -23,7 +24,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 20.64,
+   "degree": 20.59,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +34,7 @@
   },
   "Venus": {
    "sign": "Libra",
-   "degree": 29.32,
+   "degree": 29.22,
    "retrograde": true,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -43,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 15.8,
+   "degree": 15.89,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 23.62,
+   "degree": 23.64,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.65,
+   "degree": 9.64,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -73,7 +74,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 4.87,
+   "degree": 4.86,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -120,13 +121,19 @@
   {
    "a": "Moon",
    "aspect": "square",
+   "b": "Mars",
+   "utc": "2026-10-27T02:18:02.486522+00:00"
+  },
+  {
+   "a": "Moon",
+   "aspect": "square",
    "b": "Pluto",
    "utc": "2026-10-26T04:44:36.098297+00:00"
   }
  ],
  "lunar_event": {
   "event": "Full Moon",
-  "utc": "2026-10-26T04:11:44.549803+00:00",
+  "utc": "2026-10-26T04:11:44.549818+00:00",
   "sign": "Taurus",
   "degree": 2.76
  },
@@ -135,6 +142,7 @@
   "waxing": false,
   "phase": "Full"
  },
+ "phase_label": "Full Moon",
  "moon_house_by_sign": {
   "Aries": 2,
   "Taurus": 1,

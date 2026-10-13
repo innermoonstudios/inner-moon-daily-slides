@@ -1,9 +1,10 @@
 {
  "date": "2026-10-13",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 20.17,
+   "degree": 20.34,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,17 +14,18 @@
   },
   "Moon": {
    "sign": "Scorpio",
-   "degree": 23.36,
+   "degree": 25.41,
    "retrograde": false,
    "sign_start": "Scorpio",
-   "sign_end": "Scorpio",
+   "sign_end": "Sagittarius",
    "signs_today": [
-    "Scorpio"
+    "Scorpio",
+    "Sagittarius"
    ]
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 15.14,
+   "degree": 15.29,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +35,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 6.45,
+   "degree": 6.38,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -43,7 +45,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 8.81,
+   "degree": 8.9,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +55,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 21.71,
+   "degree": 21.74,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +65,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.6,
+   "degree": 10.59,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -73,7 +75,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 5.26,
+   "degree": 5.25,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -102,7 +104,14 @@
    ]
   }
  },
- "ingresses": [],
+ "ingresses": [
+  {
+   "body": "Moon",
+   "sign": "Sagittarius",
+   "from": "Scorpio",
+   "utc": "2026-10-14T00:59:19.359748+00:00"
+  }
+ ],
  "stations": [],
  "aspects": [
   {
@@ -114,10 +123,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 8,
+  "illumination": 9,
   "waxing": true,
   "phase": "Waxing Crescent"
  },
+ "phase_label": "Waxing crescent",
  "moon_house_by_sign": {
   "Aries": 8,
   "Taurus": 7,

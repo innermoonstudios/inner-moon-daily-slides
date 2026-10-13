@@ -1,9 +1,10 @@
 {
  "date": "2026-11-01",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Scorpio",
-   "degree": 9.08,
+   "degree": 9.29,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -13,7 +14,7 @@
   },
   "Moon": {
    "sign": "Leo",
-   "degree": 4.5,
+   "degree": 7.42,
    "retrograde": false,
    "sign_start": "Cancer",
    "sign_end": "Leo",
@@ -24,7 +25,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 16.09,
+   "degree": 15.85,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -34,7 +35,7 @@
   },
   "Venus": {
    "sign": "Libra",
-   "degree": 26.0,
+   "degree": 25.9,
    "retrograde": true,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -44,7 +45,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 18.87,
+   "degree": 18.98,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -54,7 +55,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 24.38,
+   "degree": 24.41,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -64,7 +65,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.26,
+   "degree": 9.24,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -74,7 +75,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 4.66,
+   "degree": 4.65,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -108,7 +109,7 @@
    "body": "Moon",
    "sign": "Leo",
    "from": "Cancer",
-   "utc": "2026-11-01T04:18:05.608262+00:00"
+   "utc": "2026-11-01T04:18:05.608216+00:00"
   }
  ],
  "stations": [],
@@ -146,15 +147,16 @@
  ],
  "lunar_event": {
   "event": "Last Quarter",
-  "utc": "2026-11-01T20:28:21.821101+00:00",
+  "utc": "2026-11-01T20:28:21.821091+00:00",
   "sign": "Leo",
   "degree": 9.43
  },
  "moon": {
-  "illumination": 54,
+  "illumination": 52,
   "waxing": false,
   "phase": "Last Quarter"
  },
+ "phase_label": "Last Quarter Moon",
  "moon_house_by_sign": {
   "Aries": 5,
   "Taurus": 4,

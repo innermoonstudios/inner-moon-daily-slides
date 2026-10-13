@@ -1,9 +1,10 @@
 {
  "date": "2026-10-22",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 29.1,
+   "degree": 29.27,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,7 +14,7 @@
   },
   "Moon": {
    "sign": "Pisces",
-   "degree": 12.44,
+   "degree": 14.6,
    "retrograde": false,
    "sign_start": "Pisces",
    "sign_end": "Pisces",
@@ -23,7 +24,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 20.77,
+   "degree": 20.81,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +34,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 1.76,
+   "degree": 1.66,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -43,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 13.7,
+   "degree": 13.79,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 23.07,
+   "degree": 23.09,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.93,
+   "degree": 9.92,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -73,7 +74,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 5.0,
+   "degree": 4.99,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -83,7 +84,7 @@
   },
   "Neptune": {
    "sign": "Aries",
-   "degree": 2.3,
+   "degree": 2.29,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -104,13 +105,21 @@
  },
  "ingresses": [],
  "stations": [],
- "aspects": [],
+ "aspects": [
+  {
+   "a": "Moon",
+   "aspect": "trine",
+   "b": "Mercury",
+   "utc": "2026-10-23T03:31:12.597894+00:00"
+  }
+ ],
  "lunar_event": null,
  "moon": {
-  "illumination": 84,
+  "illumination": 86,
   "waxing": true,
   "phase": "Waxing Gibbous"
  },
+ "phase_label": "Waxing gibbous",
  "moon_house_by_sign": {
   "Aries": 12,
   "Taurus": 11,

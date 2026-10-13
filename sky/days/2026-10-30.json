@@ -1,9 +1,10 @@
 {
  "date": "2026-10-30",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Scorpio",
-   "degree": 7.08,
+   "degree": 7.24,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -13,18 +14,17 @@
   },
   "Moon": {
    "sign": "Cancer",
-   "degree": 6.0,
+   "degree": 8.41,
    "retrograde": false,
-   "sign_start": "Gemini",
+   "sign_start": "Cancer",
    "sign_end": "Cancer",
    "signs_today": [
-    "Gemini",
     "Cancer"
    ]
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 18.18,
+   "degree": 18.03,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -34,7 +34,7 @@
   },
   "Venus": {
    "sign": "Libra",
-   "degree": 27.02,
+   "degree": 26.93,
    "retrograde": true,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -44,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 17.86,
+   "degree": 17.95,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -54,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 24.14,
+   "degree": 24.16,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -64,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.38,
+   "degree": 9.37,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -74,7 +74,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 4.73,
+   "degree": 4.72,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -84,7 +84,7 @@
   },
   "Neptune": {
    "sign": "Aries",
-   "degree": 2.12,
+   "degree": 2.11,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -103,14 +103,7 @@
    ]
   }
  },
- "ingresses": [
-  {
-   "body": "Moon",
-   "sign": "Cancer",
-   "from": "Gemini",
-   "utc": "2026-10-30T02:05:28.311892+00:00"
-  }
- ],
+ "ingresses": [],
  "stations": [],
  "aspects": [
   {
@@ -140,10 +133,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 76,
+  "illumination": 74,
   "waxing": false,
   "phase": "Waning Gibbous"
  },
+ "phase_label": "Waning gibbous",
  "moon_house_by_sign": {
   "Aries": 4,
   "Taurus": 3,

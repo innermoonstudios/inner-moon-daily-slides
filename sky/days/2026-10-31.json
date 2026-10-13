@@ -1,9 +1,10 @@
 {
  "date": "2026-10-31",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Scorpio",
-   "degree": 8.08,
+   "degree": 8.24,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -13,7 +14,7 @@
   },
   "Moon": {
    "sign": "Cancer",
-   "degree": 20.37,
+   "degree": 22.75,
    "retrograde": false,
    "sign_start": "Cancer",
    "sign_end": "Cancer",
@@ -23,7 +24,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 17.2,
+   "degree": 17.02,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +34,7 @@
   },
   "Venus": {
    "sign": "Libra",
-   "degree": 26.5,
+   "degree": 26.41,
    "retrograde": true,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -43,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 18.37,
+   "degree": 18.45,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 24.26,
+   "degree": 24.28,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.32,
+   "degree": 9.31,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -120,10 +121,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 65,
+  "illumination": 64,
   "waxing": false,
   "phase": "Waning Gibbous"
  },
+ "phase_label": "Waning gibbous",
  "moon_house_by_sign": {
   "Aries": 4,
   "Taurus": 3,

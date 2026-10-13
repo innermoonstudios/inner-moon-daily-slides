@@ -1,9 +1,10 @@
 {
  "date": "2026-10-14",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 21.16,
+   "degree": 21.33,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,18 +14,17 @@
   },
   "Moon": {
    "sign": "Sagittarius",
-   "degree": 5.58,
+   "degree": 7.6,
    "retrograde": false,
-   "sign_start": "Scorpio",
+   "sign_start": "Sagittarius",
    "sign_end": "Sagittarius",
    "signs_today": [
-    "Scorpio",
     "Sagittarius"
    ]
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 16.04,
+   "degree": 16.19,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -34,7 +34,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 6.04,
+   "degree": 5.96,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -44,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 9.36,
+   "degree": 9.45,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -54,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 21.87,
+   "degree": 21.9,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -64,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.52,
+   "degree": 10.51,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -84,7 +84,7 @@
   },
   "Neptune": {
    "sign": "Aries",
-   "degree": 2.5,
+   "degree": 2.49,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -103,14 +103,7 @@
    ]
   }
  },
- "ingresses": [
-  {
-   "body": "Moon",
-   "sign": "Sagittarius",
-   "from": "Scorpio",
-   "utc": "2026-10-14T00:59:19.359773+00:00"
-  }
- ],
+ "ingresses": [],
  "stations": [],
  "aspects": [
   {
@@ -146,10 +139,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 15,
+  "illumination": 16,
   "waxing": true,
   "phase": "Waxing Crescent"
  },
+ "phase_label": "Waxing crescent",
  "moon_house_by_sign": {
   "Aries": 9,
   "Taurus": 8,

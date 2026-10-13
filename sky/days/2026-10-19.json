@@ -1,9 +1,10 @@
 {
  "date": "2026-10-19",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 26.12,
+   "degree": 26.29,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,18 +14,17 @@
   },
   "Moon": {
    "sign": "Aquarius",
-   "degree": 5.16,
+   "degree": 7.17,
    "retrograde": false,
-   "sign_start": "Capricorn",
+   "sign_start": "Aquarius",
    "sign_end": "Aquarius",
    "signs_today": [
-    "Capricorn",
     "Aquarius"
    ]
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 19.63,
+   "degree": 19.71,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -34,7 +34,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 3.52,
+   "degree": 3.43,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -44,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 12.09,
+   "degree": 12.18,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -54,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 22.63,
+   "degree": 22.66,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -64,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.15,
+   "degree": 10.14,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -103,14 +103,7 @@
    ]
   }
  },
- "ingresses": [
-  {
-   "body": "Moon",
-   "sign": "Aquarius",
-   "from": "Capricorn",
-   "utc": "2026-10-19T01:39:49.642145+00:00"
-  }
- ],
+ "ingresses": [],
  "stations": [],
  "aspects": [
   {
@@ -118,6 +111,12 @@
    "aspect": "square",
    "b": "Venus",
    "utc": "2026-10-19T08:52:20.587426+00:00"
+  },
+  {
+   "a": "Moon",
+   "aspect": "opposite",
+   "b": "Mars",
+   "utc": "2026-10-20T02:24:27.178401+00:00"
   },
   {
    "a": "Moon",
@@ -146,10 +145,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 58,
+  "illumination": 60,
   "waxing": true,
-  "phase": "First Quarter"
+  "phase": "Waxing Gibbous"
  },
+ "phase_label": "Waxing gibbous",
  "moon_house_by_sign": {
   "Aries": 11,
   "Taurus": 10,

@@ -1,9 +1,10 @@
 {
  "date": "2026-10-12",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 19.18,
+   "degree": 19.35,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,7 +14,7 @@
   },
   "Moon": {
    "sign": "Scorpio",
-   "degree": 10.9,
+   "degree": 13.0,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -23,7 +24,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 14.18,
+   "degree": 14.35,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +34,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 6.83,
+   "degree": 6.76,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -43,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 8.25,
+   "degree": 8.34,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 21.55,
+   "degree": 21.58,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.68,
+   "degree": 10.66,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -130,6 +131,7 @@
   "waxing": true,
   "phase": "Waxing Crescent"
  },
+ "phase_label": "Waxing crescent",
  "moon_house_by_sign": {
   "Aries": 8,
   "Taurus": 7,

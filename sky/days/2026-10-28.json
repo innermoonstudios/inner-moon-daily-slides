@@ -1,9 +1,10 @@
 {
  "date": "2026-10-28",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Scorpio",
-   "degree": 5.08,
+   "degree": 5.25,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -13,18 +14,17 @@
   },
   "Moon": {
    "sign": "Gemini",
-   "degree": 6.73,
+   "degree": 9.18,
    "retrograde": false,
-   "sign_start": "Taurus",
+   "sign_start": "Gemini",
    "sign_end": "Gemini",
    "signs_today": [
-    "Taurus",
     "Gemini"
    ]
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 19.72,
+   "degree": 19.61,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -34,7 +34,7 @@
   },
   "Venus": {
    "sign": "Libra",
-   "degree": 28.14,
+   "degree": 28.04,
    "retrograde": true,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -44,7 +44,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 16.84,
+   "degree": 16.93,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -54,7 +54,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 23.88,
+   "degree": 23.91,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -64,7 +64,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.51,
+   "degree": 9.5,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -74,7 +74,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 4.8,
+   "degree": 4.79,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -103,14 +103,7 @@
    ]
   }
  },
- "ingresses": [
-  {
-   "body": "Moon",
-   "sign": "Gemini",
-   "from": "Taurus",
-   "utc": "2026-10-28T01:01:48.479785+00:00"
-  }
- ],
+ "ingresses": [],
  "stations": [],
  "aspects": [
   {
@@ -140,10 +133,11 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 93,
+  "illumination": 91,
   "waxing": false,
   "phase": "Waning Gibbous"
  },
+ "phase_label": "Waning gibbous",
  "moon_house_by_sign": {
   "Aries": 3,
   "Taurus": 2,

@@ -1,9 +1,10 @@
 {
  "date": "2026-10-23",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Scorpio",
-   "degree": 0.1,
+   "degree": 0.26,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Scorpio",
@@ -14,7 +15,7 @@
   },
   "Moon": {
    "sign": "Pisces",
-   "degree": 25.59,
+   "degree": 27.82,
    "retrograde": false,
    "sign_start": "Pisces",
    "sign_end": "Aries",
@@ -25,7 +26,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 20.94,
+   "degree": 20.95,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -35,7 +36,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 1.15,
+   "degree": 1.05,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -45,7 +46,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 14.23,
+   "degree": 14.32,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -55,7 +56,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 23.21,
+   "degree": 23.23,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -65,7 +66,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 9.86,
+   "degree": 9.85,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -75,7 +76,7 @@
   },
   "Uranus": {
    "sign": "Gemini",
-   "degree": 4.97,
+   "degree": 4.96,
    "retrograde": true,
    "sign_start": "Gemini",
    "sign_end": "Gemini",
@@ -109,36 +110,43 @@
    "body": "Sun",
    "sign": "Scorpio",
    "from": "Libra",
-   "utc": "2026-10-23T09:37:47.106152+00:00"
+   "utc": "2026-10-23T09:37:47.106123+00:00"
   },
   {
    "body": "Moon",
    "sign": "Aries",
    "from": "Pisces",
-   "utc": "2026-10-23T19:53:28.289969+00:00"
+   "utc": "2026-10-23T19:53:28.289942+00:00"
   }
  ],
  "stations": [],
  "aspects": [
   {
-   "a": "Moon",
-   "aspect": "trine",
-   "b": "Mercury",
-   "utc": "2026-10-23T03:31:12.597894+00:00"
+   "a": "Sun",
+   "aspect": "conjunct",
+   "b": "Venus",
+   "utc": "2026-10-24T03:43:59.628010+00:00"
   },
   {
    "a": "Moon",
    "aspect": "conjunct",
    "b": "Neptune",
    "utc": "2026-10-23T23:54:17.161706+00:00"
+  },
+  {
+   "a": "Moon",
+   "aspect": "sextile",
+   "b": "Pluto",
+   "utc": "2026-10-24T01:21:02.721094+00:00"
   }
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 91,
+  "illumination": 92,
   "waxing": true,
   "phase": "Waxing Gibbous"
  },
+ "phase_label": "Waxing gibbous",
  "moon_house_by_sign": {
   "Aries": 12,
   "Taurus": 11,

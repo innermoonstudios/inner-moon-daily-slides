@@ -1,9 +1,10 @@
 {
  "date": "2026-10-18",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 25.13,
+   "degree": 25.29,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -13,17 +14,18 @@
   },
   "Moon": {
    "sign": "Capricorn",
-   "degree": 23.22,
+   "degree": 25.2,
    "retrograde": false,
    "sign_start": "Capricorn",
-   "sign_end": "Capricorn",
+   "sign_end": "Aquarius",
    "signs_today": [
-    "Capricorn"
+    "Capricorn",
+    "Aquarius"
    ]
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 19.06,
+   "degree": 19.16,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -33,7 +35,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 4.08,
+   "degree": 3.99,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -43,7 +45,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 11.55,
+   "degree": 11.64,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -53,7 +55,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 22.48,
+   "degree": 22.51,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -63,7 +65,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.22,
+   "degree": 10.21,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -83,7 +85,7 @@
   },
   "Neptune": {
    "sign": "Aries",
-   "degree": 2.4,
+   "degree": 2.39,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -102,7 +104,14 @@
    ]
   }
  },
- "ingresses": [],
+ "ingresses": [
+  {
+   "body": "Moon",
+   "sign": "Aquarius",
+   "from": "Capricorn",
+   "utc": "2026-10-19T01:39:49.642119+00:00"
+  }
+ ],
  "stations": [],
  "aspects": [
   {
@@ -110,25 +119,20 @@
    "aspect": "square",
    "b": "Moon",
    "utc": "2026-10-18T16:12:35.845792+00:00"
-  },
-  {
-   "a": "Moon",
-   "aspect": "sextile",
-   "b": "Mercury",
-   "utc": "2026-10-18T03:07:00.922288+00:00"
   }
  ],
  "lunar_event": {
   "event": "First Quarter",
-  "utc": "2026-10-18T16:12:35.845826+00:00",
+  "utc": "2026-10-18T16:12:35.845788+00:00",
   "sign": "Capricorn",
   "degree": 25.3
  },
  "moon": {
-  "illumination": 49,
+  "illumination": 50,
   "waxing": true,
   "phase": "First Quarter"
  },
+ "phase_label": "First Quarter Moon",
  "moon_house_by_sign": {
   "Aries": 10,
   "Taurus": 9,

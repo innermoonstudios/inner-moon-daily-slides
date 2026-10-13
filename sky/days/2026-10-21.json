@@ -1,9 +1,10 @@
 {
  "date": "2026-10-21",
+ "tz": "America/New_York",
  "positions": {
   "Sun": {
    "sign": "Libra",
-   "degree": 28.11,
+   "degree": 28.27,
    "retrograde": false,
    "sign_start": "Libra",
    "sign_end": "Libra",
@@ -12,8 +13,8 @@
    ]
   },
   "Moon": {
-   "sign": "Aquarius",
-   "degree": 29.69,
+   "sign": "Pisces",
+   "degree": 1.79,
    "retrograde": false,
    "sign_start": "Aquarius",
    "sign_end": "Pisces",
@@ -24,7 +25,7 @@
   },
   "Mercury": {
    "sign": "Scorpio",
-   "degree": 20.49,
+   "degree": 20.55,
    "retrograde": false,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -34,7 +35,7 @@
   },
   "Venus": {
    "sign": "Scorpio",
-   "degree": 2.36,
+   "degree": 2.26,
    "retrograde": true,
    "sign_start": "Scorpio",
    "sign_end": "Scorpio",
@@ -44,7 +45,7 @@
   },
   "Mars": {
    "sign": "Leo",
-   "degree": 13.17,
+   "degree": 13.26,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -54,7 +55,7 @@
   },
   "Jupiter": {
    "sign": "Leo",
-   "degree": 22.93,
+   "degree": 22.95,
    "retrograde": false,
    "sign_start": "Leo",
    "sign_end": "Leo",
@@ -64,7 +65,7 @@
   },
   "Saturn": {
    "sign": "Aries",
-   "degree": 10.0,
+   "degree": 9.99,
    "retrograde": true,
    "sign_start": "Aries",
    "sign_end": "Aries",
@@ -108,7 +109,7 @@
    "body": "Moon",
    "sign": "Pisces",
    "from": "Aquarius",
-   "utc": "2026-10-21T12:35:03.378936+00:00"
+   "utc": "2026-10-21T12:35:03.378989+00:00"
   }
  ],
  "stations": [],
@@ -134,23 +135,24 @@
  ],
  "lunar_event": null,
  "moon": {
-  "illumination": 76,
+  "illumination": 78,
   "waxing": true,
   "phase": "Waxing Gibbous"
  },
+ "phase_label": "Waxing gibbous",
  "moon_house_by_sign": {
-  "Aries": 11,
-  "Taurus": 10,
-  "Gemini": 9,
-  "Cancer": 8,
-  "Leo": 7,
-  "Virgo": 6,
-  "Libra": 5,
-  "Scorpio": 4,
-  "Sagittarius": 3,
-  "Capricorn": 2,
-  "Aquarius": 1,
-  "Pisces": 12
+  "Aries": 12,
+  "Taurus": 11,
+  "Gemini": 10,
+  "Cancer": 9,
+  "Leo": 8,
+  "Virgo": 7,
+  "Libra": 6,
+  "Scorpio": 5,
+  "Sagittarius": 4,
+  "Capricorn": 3,
+  "Aquarius": 2,
+  "Pisces": 1
  },
  "retrograde": [
   "Venus",
