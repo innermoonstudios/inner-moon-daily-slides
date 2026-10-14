@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-03",
+ "tz": "America/New_York",
+ "positions": {
+  "Sun": {
+   "sign": "Scorpio",
+   "degree": 11.29,
+   "retrograde": false,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Moon": {
+   "sign": "Virgo",
+   "degree": 4.8,
+   "retrograde": false,
+   "sign_start": "Leo",
+   "sign_end": "Virgo",
+   "signs_today": [
+    "Leo",
+    "Virgo"
+   ]
+  },
+  "Mercury": {
+   "sign": "Scorpio",
+   "degree": 13.35,
+   "retrograde": true,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Venus": {
+   "sign": "Libra",
+   "degree": 25.02,
+   "retrograde": true,
+   "sign_start": "Libra",
+   "sign_end": "Libra",
+   "signs_today": [
+    "Libra"
+   ]
+  },
+  "Mars": {
+   "sign": "Leo",
+   "degree": 19.97,
+   "retrograde": false,
+   "sign_start": "Leo",
+   "sign_end": "Leo",
+   "signs_today": [
+    "Leo"
+   ]
+  },
+  "Jupiter": {
+   "sign": "Leo",
+   "degree": 24.64,
+   "retrograde": false,
+   "sign_start": "Leo",
+   "sign_end": "Leo",
+   "signs_today": [
+    "Leo"
+   ]
+  },
+  "Saturn": {
+   "sign": "Aries",
+   "degree": 9.12,
+   "retrograde": true,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Uranus": {
+   "sign": "Gemini",
+   "degree": 4.58,
+   "retrograde": true,
+   "sign_start": "Gemini",
+   "sign_end": "Gemini",
+   "signs_today": [
+    "Gemini"
+   ]
+  },
+  "Neptune": {
+   "sign": "Aries",
+   "degree": 2.03,
+   "retrograde": true,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Pluto": {
+   "sign": "Aquarius",
+   "degree": 3.15,
+   "retrograde": false,
+   "sign_start": "Aquarius",
+   "sign_end": "Aquarius",
+   "signs_today": [
+    "Aquarius"
+   ]
+  }
+ },
+ "ingresses": [
+  {
+   "body": "Moon",
+   "sign": "Virgo",
+   "from": "Leo",
+   "utc": "2026-11-03T08:27:39.584602+00:00"
+  }
+ ],
+ "stations": [],
+ "aspects": [
+  {
+   "a": "Moon",
+   "aspect": "square",
+   "b": "Uranus",
+   "utc": "2026-11-03T16:35:58.190207+00:00"
+  }
+ ],
+ "lunar_event": null,
+ "moon": {
+  "illumination": 30,
+  "waxing": false,
+  "phase": "Waning Crescent"
+ },
+ "phase_label": "Waning crescent",
+ "moon_house_by_sign": {
+  "Aries": 6,
+  "Taurus": 5,
+  "Gemini": 4,
+  "Cancer": 3,
+  "Leo": 2,
+  "Virgo": 1,
+  "Libra": 12,
+  "Scorpio": 11,
+  "Sagittarius": 10,
+  "Capricorn": 9,
+  "Aquarius": 8,
+  "Pisces": 7
+ },
+ "retrograde": [
+  "Mercury",
+  "Venus",
+  "Saturn",
+  "Uranus",
+  "Neptune"
+ ]
+}
