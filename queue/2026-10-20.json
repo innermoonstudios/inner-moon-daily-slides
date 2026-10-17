@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-20",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-20.json",
+ "caption": "Venus and Pluto had a little standoff overnight.\n\nVenus, retrograde in Scorpio, squared Pluto overnight, and the Moon in Aquarius opposes Jupiter in Leo tonight. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tuesday · Waxing gibbous · Libra season",
+   "headline": "Venus and Pluto had a little standoff overnight.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon is in your house of deep bonds. Tonight she faces generous Jupiter: give from the heart, and let others give back.",
+   "question": "Where can I let someone meet me halfway?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "Venus, retrograde in your sign, squared Pluto overnight. The Moon rests in your home zone; give old feelings a soft place to land.",
+   "question": "What feeling am I finally ready to set down?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon drifts through your twelfth house, your space for rest. As she squares Mercury this afternoon, think less and dream more.",
+   "question": "What would I hear if I gave myself an hour of quiet?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

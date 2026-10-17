@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-21",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-21.json",
+ "caption": "The Moon dives into Pisces and goes all soft-focus.\n\nThe Moon slips into Pisces today, trines Venus around lunchtime and squares Uranus this evening. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wednesday · Waxing gibbous · Libra season",
+   "headline": "The Moon dives into Pisces and goes all soft-focus.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon glides into your twelfth house, your private retreat, today. Saturn is retrograde in your sign: slow down and let plans steep.",
+   "question": "What do I need to hear from myself before I act?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon enters your house of intimacy and trines Venus today. With Mars and Jupiter in your sign, lead with tenderness, not volume.",
+   "question": "Who deserves the softer side of my fire?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon arrives in your home zone today and squares Uranus tonight. If plans wobble, cozy up and let home be the adventure.",
+   "question": "Where do I feel most at home in myself?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

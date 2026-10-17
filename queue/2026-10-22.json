@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-22",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-22.json",
+ "caption": "The Moon is daydreaming in Pisces. Join her.\n\nThe Moon spends the whole day in Pisces and trines Mercury in Scorpio late tonight. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Thursday · Waxing gibbous · Libra season",
+   "headline": "The Moon is daydreaming in Pisces. Join her.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon floats through your friendship house. Venus, your ruler, is retrograde, so reach out to someone you've missed.",
+   "question": "Which friendship would I love to rekindle?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon is in Pisces, your opposite sign, lighting your partnership house. Let someone else take care of you for once.",
+   "question": "What would I receive if I stopped fixing everything?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon swims through your house of words and short trips. Late tonight she trines Mercury: send the note or the voice memo.",
+   "question": "Who could use a kind word from me tonight?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your next quiet evening.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

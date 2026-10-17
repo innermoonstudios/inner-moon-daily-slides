@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-24",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-24.json",
+ "caption": "Mercury went retrograde overnight. Reread, then send.\n\nMercury turned retrograde in Scorpio overnight, and the Moon in Aries meets Saturn today and trines Mars tonight. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Saturday · Waxing gibbous · Scorpio season",
+   "headline": "Mercury went retrograde overnight. Reread, then send.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon lights your career house and meets Saturn today. Steady effort is your love language right now; show up for yourself.",
+   "question": "What am I building that makes me proud?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "Mercury, the planet of words, turned retrograde in your sign overnight. Slow down, reread your messages, and choose kind words.",
+   "question": "Which conversation deserves a gentler second draft?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon is in your house of values and self-worth. Tonight she trines Mars: take one confident step toward what you treasure.",
+   "question": "What makes me feel rich in ways that matter?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

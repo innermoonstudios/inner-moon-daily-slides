@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-26",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-26.json",
+ "caption": "The Full Moon peaked in Taurus overnight. Gorgeous.\n\nThe Moon turned full in Taurus overnight, and the Sun in Scorpio squares Pluto today. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Monday · Full Moon · Scorpio season",
+   "headline": "The Full Moon peaked in Taurus overnight. Gorgeous.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Full Moon lit up your sign overnight. Celebrate how far you've come, then gently release one thing that no longer fits.",
+   "question": "What am I proud of that I haven't said out loud?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Full Moon is in your house of wisdom and wide horizons. Mercury, your ruler, is retrograde: revisit a lesson before a new one.",
+   "question": "What lesson keeps returning, and what is it asking?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Full Moon glows in your house of creativity and joy. As she squares Mars tonight, play with heart, not pressure.",
+   "question": "Where can I trade pressure for play this week?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your Full Moon ritual.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-23",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-23.json",
+ "caption": "Scorpio season arrived this morning, darling.\n\nThe Sun moved into Scorpio this morning, the Moon enters Aries this afternoon, and the Sun meets retrograde Venus late tonight. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Friday · Waxing gibbous · Scorpio season",
+   "headline": "Scorpio season arrived this morning, darling.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon is in your career house while Uranus is retrograde in your sign. Revisit a work idea you shelved; it may sparkle now.",
+   "question": "Which shelved idea still makes my heart beat faster?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon tidies your house of daily routines. Late tonight Venus, your ruler, meets the Sun. Keep it simple and glow quietly.",
+   "question": "What small ritual makes me feel most like me?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon is in your house of values before entering Aries this afternoon. Pluto is in your sign: honor who you've grown into.",
+   "question": "What do I value now that I didn't a year ago?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
