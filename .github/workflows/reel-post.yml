@@ -1,0 +1,103 @@
+name: Reel post
+
+# Manual run only: Actions tab > "Reel post" > Run workflow.
+# Posts one MP4 committed under reels/ as an Instagram Reel. Leave publish unticked for a dry run
+# (creates and checks the Reel container, posts nothing).
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "MP4 in this repo, under reels/"
+        required: true
+        default: "reels/test/aries-03-tarot-card-reel.mp4"
+      caption:
+        description: "Caption. Blank = use the .txt next to the video (same name), if there is one."
+        required: false
+      share_to_feed:
+        description: "Also show the Reel in the profile grid?"
+        type: boolean
+        default: true
+      publish:
+        description: "Publish to Instagram? (false = dry run, stops before posting)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Shares the Pages group with the carousel workflows: each Pages deploy replaces the whole site,
+# so runs queue instead of overwriting each other's files mid-run.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage video for Pages
+        env:
+          VIDEO: ${{ inputs.video }}
+        run: |
+          case "$VIDEO" in reels/*.mp4) ;; *) echo "video must be an .mp4 under reels/"; exit 1;; esac
+          case "$VIDEO" in *..*) echo "video path may not contain '..'"; exit 1;; esac
+          test -f "$VIDEO" || { echo "No such file: $VIDEO"; exit 1; }
+          # Each run gets its own folder so Instagram never fetches a cached old file.
+          mkdir -p "site/runs/${{ github.run_id }}"
+          cp "$VIDEO" "site/runs/${{ github.run_id }}/reel.mp4"
+          ls -l "site/runs/${{ github.run_id }}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  publish:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Wait until video is public
+        run: |
+          PAGE="${{ needs.deploy.outputs.page_url }}"
+          URL="${PAGE%/}/runs/${{ github.run_id }}/reel.mp4"
+          echo "VIDEO_URL=$URL" >> "$GITHUB_ENV"
+          for i in $(seq 1 30); do
+            if curl -sfI "$URL" | grep -qi "content-type: video/mp4"; then
+              echo "Video live at $URL"; exit 0; fi
+            sleep 10
+          done
+          echo "Video never became public"; exit 1
+      - name: Pick caption
+        env:
+          VIDEO: ${{ inputs.video }}
+          CAPTION_INPUT: ${{ inputs.caption }}
+        run: |
+          SIDECAR="${VIDEO%.mp4}.txt"
+          if [ -n "$CAPTION_INPUT" ]; then CAPTION="$CAPTION_INPUT"
+          elif [ -f "$SIDECAR" ]; then CAPTION="$(cat "$SIDECAR")"; echo "Caption from $SIDECAR"
+          else CAPTION=""; echo "No caption"; fi
+          { echo "CAPTION<<CAPTION_EOF"; echo "$CAPTION"; echo "CAPTION_EOF"; } >> "$GITHUB_ENV"
+      - name: Create Reel container (and publish if chosen)
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SHARE_TO_FEED: ${{ inputs.share_to_feed }}
+          PUBLISH: ${{ inputs.publish }}
+        run: python scripts/publish_reel.py

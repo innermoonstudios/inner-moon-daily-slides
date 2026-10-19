@@ -37,7 +37,23 @@ Automated daily Instagram carousels for [@innermoonstore](https://www.instagram.
 - **Refresh Instagram token** (`refresh-token.yml`): Mondays, refreshes `IG_ACCESS_TOKEN` and saves it back with `GH_TOKEN`.
 - **Test carousel post** (`.github/workflows/test-post.yml`): renders 5 placeholder slides, deploys them to Pages,
   creates the Instagram carousel, and publishes only when `publish` is ticked. Run it from the Actions tab.
+- **Reel post** (`reel-post.yml`): manual. Copies one MP4 from `reels/` to Pages, creates an Instagram REELS container,
+  waits until Instagram has processed it (status `FINISHED`), and publishes only when `publish` is ticked.
+  See *Reels* below.
 
 ## Scripts
 - `scripts/make_test_slides.py`: placeholder 1080x1350 JPEG slides.
 - `scripts/publish_carousel.py`: Instagram API flow (slide containers, carousel container, publish).
+- `scripts/publish_reel.py`: Instagram API flow for Reels (REELS container with `video_url`, poll status, publish).
+
+## Reels
+- **Files**: commit the MP4 under `reels/` (e.g. `reels/aries/aries-03-tarot-card-reel.mp4`). Optional caption file
+  with the same name and `.txt` (`aries-03-tarot-card-reel.txt`); the run's `caption` box overrides it.
+- **Specs** Instagram accepts: MP4, H.264 video + AAC audio, 9:16 (1080x1920 ideal, 720x1280 works), 3 s to 15 min, under 300 MB.
+- **Run**: Actions > *Reel post* > Run workflow. Fill `video` with the repo path, leave `publish` unticked for a dry run.
+  A dry run creates the container and waits for `FINISHED` (proves Instagram can fetch and process the video), then stops.
+  Unused containers expire after 24 h. Tick `publish` to post; the permalink goes in the run summary.
+- The video is served at `https://innermoonstudios.github.io/inner-moon-daily-slides/runs/<run id>/reel.mp4`
+  until the next Pages deploy replaces the site (Instagram copies the file when the container is created).
+- `reels/test/aries-03-tarot-card-reel.mp4` is the pipeline test (caption says it will be removed). Default `video` input.
+- Videos stay in git history even after deletion (~6 MB each). Fine for dozens; move to release assets if it grows to hundreds.
