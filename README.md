@@ -37,7 +37,7 @@ Automated daily Instagram carousels for [@innermoonstore](https://www.instagram.
 - **Refresh Instagram token** (`refresh-token.yml`): Mondays, refreshes `IG_ACCESS_TOKEN` and saves it back with `GH_TOKEN`.
 - **Test carousel post** (`.github/workflows/test-post.yml`): renders 5 placeholder slides, deploys them to Pages,
   creates the Instagram carousel, and publishes only when `publish` is ticked. Run it from the Actions tab.
-- **Reel post** (`reel-post.yml`): manual for now. Posts `reels/queue/<date>.json` (or any MP4 under `reels/`): copies the
+- **Reel post** (`reel-post.yml`): 18:00 New York time, on days with an approved queue file (planned Mon/Wed/Fri). Posts `reels/queue/<date>.json` (or any MP4 under `reels/`): copies the
   MP4 to Pages, creates an Instagram REELS container, waits for `FINISHED`, publishes only when `publish` is ticked,
   then marks the queue file published. See *Reels* below.
 
@@ -50,7 +50,7 @@ Automated daily Instagram carousels for [@innermoonstore](https://www.instagram.
 
 ## Reels
 - **Cadence**: 2-3 a week (planned Mon/Wed/Fri, 18:00 New York), next to the daily 8:00 carousel. Carousels stay daily.
-  The workflow has no schedule yet; until one is added, run each Reel by hand.
+  The workflow checks daily at 18:00 and posts only when `reels/queue/<today>.json` is `approved`.
 - **Videos**: `reels/<sign>/<sign>-<NN>-<design>-reel.mp4`, made with the product-reels skill (Higgsfield UGC via
   higgsfield-generate / Marketing Studio). Instagram accepts MP4, H.264 + AAC, 9:16 (1080x1920 ideal, 720x1280 works),
   3 s to 15 min, under 300 MB.

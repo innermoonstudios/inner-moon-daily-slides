@@ -1,10 +1,15 @@
 name: Reel post
 
-# Posts reels/queue/<date>.json as an Instagram Reel (planned cadence: Mon/Wed/Fri, 18:00 New York).
-# Manual for now: Actions > Reel post > Run workflow. Blank video = the queue file for `date`
-# (blank = today); or name any MP4 under reels/. Leave publish unticked for a dry run
-# (creates and checks the container, posts nothing). A queue file only posts if "status" is "approved".
+# Posts reels/queue/<today>.json as an Instagram Reel at 18:00 America/New_York, on days that have one
+# (planned cadence: Mon/Wed/Fri). Two cron times cover daylight saving (22:00 UTC = 6pm EDT,
+# 23:00 UTC = 6pm EST); reel_today.py skips before 18:00 and never posts the same day twice.
+# A queue file only posts if "status" is "approved"; set "hold" to skip a day.
+# By hand: Actions > Reel post > Run workflow. Blank video = the queue file for `date` (blank = today);
+# or name any MP4 under reels/. Leave publish unticked for a dry run (creates and checks the container).
 on:
+  schedule:
+    - cron: "0 22 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -102,7 +107,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           CAPTION: ${{ needs.build.outputs.caption }}
           SHARE_TO_FEED: ${{ needs.build.outputs.share_to_feed }}
-          PUBLISH: ${{ inputs.publish }}
+          PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
         run: python scripts/publish_reel.py
       - name: Mark the day as published
         if: steps.ig.outputs.permalink != '' && needs.build.outputs.queued == 'true'
