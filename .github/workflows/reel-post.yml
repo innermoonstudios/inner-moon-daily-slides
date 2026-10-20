@@ -1,20 +1,23 @@
 name: Reel post
 
-# Manual run only: Actions tab > "Reel post" > Run workflow.
-# Posts one MP4 committed under reels/ as an Instagram Reel. Leave publish unticked for a dry run
-# (creates and checks the Reel container, posts nothing).
+# Posts reels/queue/<date>.json as an Instagram Reel (planned cadence: Mon/Wed/Fri, 18:00 New York).
+# Manual for now: Actions > Reel post > Run workflow. Blank video = the queue file for `date`
+# (blank = today); or name any MP4 under reels/. Leave publish unticked for a dry run
+# (creates and checks the container, posts nothing). A queue file only posts if "status" is "approved".
 on:
   workflow_dispatch:
     inputs:
+      date:
+        description: "Queue date to post (YYYY-MM-DD). Blank = today in New York."
+        required: false
       video:
-        description: "MP4 in this repo, under reels/"
-        required: true
-        default: "reels/test/aries-03-tarot-card-reel.mp4"
+        description: "Or post this MP4 instead of the queue (path under reels/)"
+        required: false
       caption:
-        description: "Caption. Blank = use the .txt next to the video (same name), if there is one."
+        description: "Caption for a video= run. Blank = the .txt next to the video, if any."
         required: false
       share_to_feed:
-        description: "Also show the Reel in the profile grid?"
+        description: "Also show the Reel in the profile grid? (video= runs; queue files set their own)"
         type: boolean
         default: true
       publish:
@@ -23,7 +26,7 @@ on:
         default: false
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -36,25 +39,33 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      post: ${{ steps.pick.outputs.post }}
+      date: ${{ steps.pick.outputs.date }}
+      caption: ${{ steps.pick.outputs.caption }}
+      share_to_feed: ${{ steps.pick.outputs.share_to_feed }}
+      queued: ${{ steps.pick.outputs.queued }}
     steps:
       - uses: actions/checkout@v4
-      - name: Stage video for Pages
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Each run gets its own folder so Instagram never fetches a cached old file.
+      - id: pick
         env:
+          POST_DATE: ${{ inputs.date }}
           VIDEO: ${{ inputs.video }}
-        run: |
-          case "$VIDEO" in reels/*.mp4) ;; *) echo "video must be an .mp4 under reels/"; exit 1;; esac
-          case "$VIDEO" in *..*) echo "video path may not contain '..'"; exit 1;; esac
-          test -f "$VIDEO" || { echo "No such file: $VIDEO"; exit 1; }
-          # Each run gets its own folder so Instagram never fetches a cached old file.
-          mkdir -p "site/runs/${{ github.run_id }}"
-          cp "$VIDEO" "site/runs/${{ github.run_id }}/reel.mp4"
-          ls -l "site/runs/${{ github.run_id }}"
-      - uses: actions/upload-pages-artifact@v3
+          CAPTION: ${{ inputs.caption }}
+          SHARE_TO_FEED: ${{ inputs.share_to_feed }}
+        run: python scripts/reel_today.py "site/runs/${{ github.run_id }}"
+      - if: steps.pick.outputs.post == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
     needs: build
+    if: needs.build.outputs.post == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -66,7 +77,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   publish:
-    needs: deploy
+    needs: [build, deploy]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -85,19 +96,19 @@ jobs:
             sleep 10
           done
           echo "Video never became public"; exit 1
-      - name: Pick caption
-        env:
-          VIDEO: ${{ inputs.video }}
-          CAPTION_INPUT: ${{ inputs.caption }}
-        run: |
-          SIDECAR="${VIDEO%.mp4}.txt"
-          if [ -n "$CAPTION_INPUT" ]; then CAPTION="$CAPTION_INPUT"
-          elif [ -f "$SIDECAR" ]; then CAPTION="$(cat "$SIDECAR")"; echo "Caption from $SIDECAR"
-          else CAPTION=""; echo "No caption"; fi
-          { echo "CAPTION<<CAPTION_EOF"; echo "$CAPTION"; echo "CAPTION_EOF"; } >> "$GITHUB_ENV"
-      - name: Create Reel container (and publish if chosen)
+      - id: ig
+        name: Create Reel container (and publish if chosen)
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          SHARE_TO_FEED: ${{ inputs.share_to_feed }}
+          CAPTION: ${{ needs.build.outputs.caption }}
+          SHARE_TO_FEED: ${{ needs.build.outputs.share_to_feed }}
           PUBLISH: ${{ inputs.publish }}
         run: python scripts/publish_reel.py
+      - name: Mark the day as published
+        if: steps.ig.outputs.permalink != '' && needs.build.outputs.queued == 'true'
+        run: |
+          python scripts/mark_published.py "${{ needs.build.outputs.date }}" "${{ steps.ig.outputs.permalink }}" reels/queue
+          git config user.name "inner-moon-bot"
+          git config user.email "innermoonstudios@users.noreply.github.com"
+          git add reels/queue && git commit -m "Published Reel ${{ needs.build.outputs.date }}"
+          git pull --rebase && git push
