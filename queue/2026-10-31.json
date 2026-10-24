@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-31",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-31.json",
+ "caption": "Happy Halloween. The Moon is pouting prettily in Cancer.\n\nThe Moon in Cancer trined retrograde Mercury overnight and squares retrograde Venus this evening. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Saturday · Waning gibbous · Scorpio season",
+   "headline": "Happy Halloween. The Moon is pouting prettily in Cancer.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon is in your house of values and self-worth. Uranus is retrograde in your sign: rethink what helps you feel secure.",
+   "question": "What helps me feel safe, steady and supported?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon lights your career house and squares Venus, retrograde in your sign, this evening. Be as kind to yourself as to others.",
+   "question": "Where can I give myself the grace I give others?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon tidies your house of daily routines. Pluto is in your sign: trade one old habit for one that fits who you are now.",
+   "question": "Which daily habit am I ready to outgrow?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

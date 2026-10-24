@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-28",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-28.json",
+ "caption": "The Moon met Uranus overnight. Sparks flew.\n\nThe Moon in Gemini met retrograde Uranus overnight and makes a friendly sextile to Saturn this afternoon. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wed · Waning gibbous · Scorpio season",
+   "headline": "The Moon met Uranus overnight. Sparks flew.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon drifts through your twelfth house, your space for rest and dreams. Lighter plans and an early night suit you.",
+   "question": "What would I dream up if no one was watching?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "Mercury is retrograde in your sign, and the Moon visits your house of deep bonds. Say the tender thing slowly, and mean it.",
+   "question": "Who have I been meaning to truly open up to?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon is in your home zone and makes a friendly angle to Saturn this afternoon. Small, steady nesting goes a long way.",
+   "question": "Where in my home could I make room for calm?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your next cozy night in.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

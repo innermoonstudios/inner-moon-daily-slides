@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-01",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-01.json",
+ "caption": "Last Quarter Moon in Leo this afternoon. Time to edit.\n\nThe Moon slipped into Leo overnight and reaches her Last Quarter, half lit and waning, this afternoon, when she also trines Saturn. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sun · Last Quarter Moon · Scorpio season",
+   "headline": "Last Quarter Moon in Leo this afternoon. Time to edit.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon entered Leo overnight, lighting your house of self-worth. At this afternoon's Last Quarter, release one thing you've outgrown.",
+   "question": "What could I release to feel more like myself?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "Mercury is retrograde in your sign as the Moon reaches her Last Quarter in your career house. Review before you reach higher.",
+   "question": "Which goal deserves a fresh, honest look?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon is in your house of daily routines, and this afternoon's Last Quarter invites a gentle clear-out. Start with one drawer.",
+   "question": "What small clear-out would make me feel lighter?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your next Last Quarter.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

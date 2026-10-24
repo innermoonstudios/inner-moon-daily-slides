@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-30",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-30.json",
+ "caption": "The Sun and Moon are holding hands today.\n\nThe Moon in Cancer trines the Sun in Scorpio today and squares Saturn this afternoon, as retrograde Mercury squares Mars. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Friday · Waning gibbous · Scorpio season",
+   "headline": "The Sun and Moon are holding hands today.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon nests in your house of words and short trips. Retrograde Mercury squares Mars today: pause before you hit send.",
+   "question": "What do I want to say once my heart is calm?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon visits your friendship house and makes a sweet trine to the Sun today. Let a friend fuss over you a little.",
+   "question": "Who in my life feels like a soft landing?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon is in Cancer, your opposite sign, lighting your partnership house. She squares Saturn this afternoon: be patient with love.",
+   "question": "Where could I meet someone with more patience?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

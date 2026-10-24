@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-27",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-10-27.json",
+ "caption": "The Moon packs her bags for Gemini tonight.\n\nThe Moon in Taurus squares Jupiter today and slips into Gemini tonight, while Mercury is retrograde in Scorpio. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tuesday · Waning gibbous · Scorpio season",
+   "headline": "The Moon packs her bags for Gemini tonight.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon rests in your twelfth house, your quiet zone, before she enters your sign tonight. Nap now; sparkle later.",
+   "question": "What would I love to begin once I feel rested?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon visits your house of deep bonds. Venus is retrograde in your sign, moving backward: revisit what you truly treasure.",
+   "question": "Which bond feels worth a second, slower look?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon settles into your home zone and squares big-hearted Jupiter today. Feelings may swell; let them be generous ones.",
+   "question": "What small change would make home feel softer?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

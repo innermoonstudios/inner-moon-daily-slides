@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-02",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-02.json",
+ "caption": "The Moon has a date with Mars and Jupiter today.\n\nThe Moon in Leo meets Mars today and Jupiter this evening, then makes a friendly sextile to Venus tonight. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Monday · Waning crescent · Scorpio season",
+   "headline": "The Moon has a date with Mars and Jupiter today.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon lights your house of joy and romance and meets Mars today. Saturn is retrograde in your sign, so play first, plan later.",
+   "question": "What would I do today purely for the fun of it?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon is in your sign and meets Mars today and Jupiter this evening, both in Leo. You're the main character; be a generous one.",
+   "question": "How can I share my glow with someone today?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon visits your house of travel and big ideas and meets Jupiter this evening. Let one bold idea out to play.",
+   "question": "Which horizon keeps calling my name lately?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
