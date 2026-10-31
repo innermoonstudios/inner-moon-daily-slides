@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-06",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-06.json",
+ "caption": "The Moon and Saturn had a stare-down overnight.\n\nThe Moon in Libra opposed retrograde Saturn overnight, while Mars and Jupiter keep company in Leo. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Friday · Waning crescent · Scorpio season",
+   "headline": "The Moon and Saturn had a stare-down overnight.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon is in Libra, your opposite sign, lighting your partnership house. She faced Saturn, retrograde in your sign, overnight.",
+   "question": "What do I need from the people closest to me?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon chats through your house of words and short trips. Mars and Jupiter are in your sign: speak with warmth and heart.",
+   "question": "Which kind words have I been saving for later?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon visits your friendship house, home of your circle and your hopes. Make plans with someone who makes you laugh.",
+   "question": "Which hope for the future feels brightest now?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

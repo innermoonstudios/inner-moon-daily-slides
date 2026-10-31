@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-07",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-07.json",
+ "caption": "The Moon and Venus shared a secret overnight.\n\nThe Moon in Libra met retrograde Venus overnight, makes a friendly sextile to Jupiter today and slips into Scorpio this evening. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sat · Waning crescent · Scorpio season",
+   "headline": "The Moon and Venus shared a secret overnight.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon tidies your house of daily routines and met Venus, your ruling planet, overnight. Make your to-do list a little prettier.",
+   "question": "Which daily ritual could feel more like a treat?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon is in your house of values and self-worth, and winks at Jupiter today. Treat your talents like the treasure they are.",
+   "question": "Which quality of mine deserves more credit?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon lights your career house until she moves into Scorpio this evening. Polish one goal, then log off and enjoy.",
+   "question": "Which goal would I love to be known for?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

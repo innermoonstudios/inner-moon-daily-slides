@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-03",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-03.json",
+ "caption": "The Moon slipped into Virgo overnight, all business.\n\nThe Moon slipped into Virgo overnight and squares retrograde Uranus late this morning. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tuesday · Waning crescent · Scorpio season",
+   "headline": "The Moon slipped into Virgo overnight, all business.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon lights your house of joy and creativity. She squares Uranus, a tense angle, late this morning: let a surprise spark an idea.",
+   "question": "What would I create if it didn't have to be perfect?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon entered your sign overnight, so today is about you. Her tense square to Uranus late this morning asks for flexible plans.",
+   "question": "Where could a little flexibility set me free?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon visits your house of travel and big ideas. When she squares Uranus late this morning, welcome the unexpected detour.",
+   "question": "Which belief am I ready to stretch a little?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-08",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-08.json",
+ "caption": "The Moon has a quiet word with Mercury today.\n\nThe Moon in Scorpio, just 1% lit, meets retrograde Mercury today. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sunday · Waning crescent · Scorpio season",
+   "headline": "The Moon has a quiet word with Mercury today.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon tidies your house of daily routines and meets Mercury, your ruling planet, today. Rest and review before you restart.",
+   "question": "What would make my mornings feel gentler?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon sits in your house of values and self-worth. With Venus retrograde in your sign, notice what makes you feel rich inside.",
+   "question": "What makes me feel valued without anyone saying it?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon lights your career house and meets Mercury today. Pluto is in your sign: let your work show who you are becoming.",
+   "question": "Where would I love my work to take me next?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

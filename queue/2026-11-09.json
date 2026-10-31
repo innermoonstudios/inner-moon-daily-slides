@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-09",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-09.json",
+ "caption": "New Moon in Scorpio overnight. Make a wish, darling.\n\nThe New Moon arrived in Scorpio overnight, and the Moon squares Mars this afternoon and Jupiter this evening. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Monday · New Moon · Scorpio season",
+   "headline": "New Moon in Scorpio overnight. Make a wish, darling.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The New Moon arrived overnight in your house of joy and romance. Plant one playful intention and give it room to grow.",
+   "question": "What joy am I ready to invite in?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The New Moon arrived in your sign overnight, beside retrograde Mercury. Write a wish about the person you're becoming.",
+   "question": "Who am I ready to become, starting today?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The New Moon arrived overnight in your house of travel and big ideas. Her tense square to Jupiter this evening says: dream, then plan.",
+   "question": "What adventure would I love to say yes to?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your New Moon wishes.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

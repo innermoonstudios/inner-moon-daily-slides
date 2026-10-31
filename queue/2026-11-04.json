@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-04",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-04.json",
+ "caption": "Mercury is whispering in the Sun's ear today.\n\nThe Moon in Virgo traded friendly glances with the Sun and Mercury overnight, and the Sun meets retrograde Mercury mid-morning. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wed · Waning crescent · Scorpio season",
+   "headline": "Mercury is whispering in the Sun's ear today.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon is in your home zone. Uranus is retrograde in your sign, moving backward: rethink one small thing about how you live.",
+   "question": "What would make my space feel more like me?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon rests in your twelfth house, your quiet zone. Venus, retrograde in your sign, met Jupiter kindly overnight: dream softly.",
+   "question": "What wish have I been too shy to say out loud?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon visits your house of deep bonds. Pluto is in your sign, and the Sun meets Mercury mid-morning: let one honest talk happen.",
+   "question": "Who do I trust enough to let all the way in?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for a quiet evening.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

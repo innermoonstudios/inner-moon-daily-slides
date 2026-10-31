@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-05",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-05.json",
+ "caption": "The Moon swaps Virgo for Libra today. Pretty choice.\n\nThe Moon moves from Virgo into Libra today, opposes Neptune and trines Pluto this afternoon, and trines Uranus this evening. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Thu · Waning crescent · Scorpio season",
+   "headline": "The Moon swaps Virgo for Libra today. Pretty choice.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon enters Libra today and lights your home zone. She trines Pluto this afternoon, a friendly angle: refresh one corner.",
+   "question": "Which corner of my life is asking for tender care?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "Mercury is retrograde in your sign, and the Moon slips into your quiet twelfth house today. Rest is productive too, darling.",
+   "question": "What am I ready to quietly let go of?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon enters your house of deep bonds today and faces Neptune, your ruling planet, this afternoon. Let feelings be clear.",
+   "question": "Where would gentle, clear boundaries help me most?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
