@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-11",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-11.json",
+ "caption": "The Moon is wandering through Sagittarius all day.\n\nThe Moon spends the whole day in Sagittarius, with no major aspects to hurry her, while Mercury and Venus are retrograde. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wed · Waxing crescent · Scorpio season",
+   "headline": "The Moon is wandering through Sagittarius all day.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon is in your house of deep bonds. Venus, your ruling planet, is retrograde, moving backward: revisit a promise gently.",
+   "question": "Which promise to myself deserves a second look?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon settles into your home zone. Mercury, your ruling planet, is retrograde, moving backward: tidy one old corner.",
+   "question": "What does home need from me right now?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon drifts through your twelfth house, your quiet zone. Saturn, your ruling planet, is retrograde: slow down and listen in.",
+   "question": "What do I hear when I finally sit still?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for a slow Wednesday.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

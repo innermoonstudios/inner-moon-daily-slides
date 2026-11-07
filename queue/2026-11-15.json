@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-15",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-15.json",
+ "caption": "The Moon cozies up to Pluto late this morning.\n\nThe Moon moved into Aquarius overnight, meets Pluto late this morning, trines Uranus around midday and sextiles Saturn tonight. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sunday · Waxing crescent · Scorpio season",
+   "headline": "The Moon cozies up to Pluto late this morning.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon moved into Aquarius overnight and lights your career house. She trines Uranus today, a friendly angle: try a fresh approach.",
+   "question": "What fresh approach could make my work feel new?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon tidies your house of daily routines. Her tense square to Mercury, your ruling planet, this afternoon says: one task at a time.",
+   "question": "Which one task deserves my full attention?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon left your sign overnight for your house of values. Tonight she sends Saturn, your ruling planet, a friendly sextile.",
+   "question": "Which quiet win am I proud of this week?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-14",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-14.json",
+ "caption": "The Sun sends the Moon a friendly wave this afternoon.\n\nThe Moon in Capricorn gets a friendly sextile from the Sun and a tense square to Venus, both this afternoon. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sat · Waxing crescent · Scorpio season",
+   "headline": "The Sun sends the Moon a friendly wave this afternoon.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon lights your career house, and the Sun sends her a friendly sextile this afternoon. Show one goal a little love.",
+   "question": "Which goal would make future me proud?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon tidies your house of daily routines. Mars and Jupiter are both in your sign: give your energy to one good habit.",
+   "question": "Which small habit makes me feel strongest?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon sits in your house of values and self-worth. Her tense square to Venus this afternoon asks what you truly treasure.",
+   "question": "What do I value more than I admit?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

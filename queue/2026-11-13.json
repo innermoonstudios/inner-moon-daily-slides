@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-13",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-13.json",
+ "caption": "Mercury and Venus stop walking backward today.\n\nMercury turns direct (moving forward again) late this morning and Venus turns direct this evening, while the Moon is in Capricorn. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Friday · Waxing crescent · Scorpio season",
+   "headline": "Mercury and Venus stop walking backward today.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon lights your partnership house, and Venus turns direct this evening, moving forward again. Let love feel easier.",
+   "question": "What would make love feel lighter this season?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "Mercury turns direct in your sign late this morning, moving forward again. The Moon is in your house of words: speak up kindly.",
+   "question": "What have I finally figured out how to say?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon visits your friendship house. Mercury turns direct late this morning: reply to the message you've been mulling over.",
+   "question": "Which friend deserves my reply today?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your next retrograde.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

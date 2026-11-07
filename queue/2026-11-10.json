@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-10",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-10.json",
+ "caption": "The Moon ran off to Sagittarius overnight.\n\nThe Moon moved into Sagittarius overnight, faces Uranus around midday and makes a friendly trine to Saturn tonight. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tuesday · Waxing crescent · Scorpio season",
+   "headline": "The Moon ran off to Sagittarius overnight.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon lights your house of travel and big ideas. Tonight she makes a friendly trine to Saturn, retrograde in your sign.",
+   "question": "Which big idea is ready for its first small step?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon lights your house of joy and romance. Venus sent Mars, in your sign, a friendly sextile overnight: flirt with an idea.",
+   "question": "What would I make just because it delights me?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon arrived in your sign overnight, so the spotlight is yours. She faces Uranus around midday: leave room for a surprise.",
+   "question": "Where am I ready to be a beginner again?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
