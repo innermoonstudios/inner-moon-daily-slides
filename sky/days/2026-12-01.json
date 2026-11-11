@@ -1,0 +1,147 @@
+{
+ "date": "2026-12-01",
+ "tz": "America/New_York",
+ "positions": {
+  "Sun": {
+   "sign": "Sagittarius",
+   "degree": 9.51,
+   "retrograde": false,
+   "sign_start": "Sagittarius",
+   "sign_end": "Sagittarius",
+   "signs_today": [
+    "Sagittarius"
+   ]
+  },
+  "Moon": {
+   "sign": "Virgo",
+   "degree": 15.13,
+   "retrograde": false,
+   "sign_start": "Virgo",
+   "sign_end": "Virgo",
+   "signs_today": [
+    "Virgo"
+   ]
+  },
+  "Mercury": {
+   "sign": "Scorpio",
+   "degree": 23.08,
+   "retrograde": false,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Venus": {
+   "sign": "Libra",
+   "degree": 28.4,
+   "retrograde": false,
+   "sign_start": "Libra",
+   "sign_end": "Libra",
+   "signs_today": [
+    "Libra"
+   ]
+  },
+  "Mars": {
+   "sign": "Virgo",
+   "degree": 2.2,
+   "retrograde": false,
+   "sign_start": "Virgo",
+   "sign_end": "Virgo",
+   "signs_today": [
+    "Virgo"
+   ]
+  },
+  "Jupiter": {
+   "sign": "Leo",
+   "degree": 26.82,
+   "retrograde": false,
+   "sign_start": "Leo",
+   "sign_end": "Leo",
+   "signs_today": [
+    "Leo"
+   ]
+  },
+  "Saturn": {
+   "sign": "Aries",
+   "degree": 8.01,
+   "retrograde": true,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Uranus": {
+   "sign": "Gemini",
+   "degree": 3.43,
+   "retrograde": true,
+   "sign_start": "Gemini",
+   "sign_end": "Gemini",
+   "signs_today": [
+    "Gemini"
+   ]
+  },
+  "Neptune": {
+   "sign": "Aries",
+   "degree": 1.65,
+   "retrograde": true,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Pluto": {
+   "sign": "Aquarius",
+   "degree": 3.57,
+   "retrograde": false,
+   "sign_start": "Aquarius",
+   "sign_end": "Aquarius",
+   "signs_today": [
+    "Aquarius"
+   ]
+  }
+ },
+ "ingresses": [],
+ "stations": [],
+ "aspects": [
+  {
+   "a": "Sun",
+   "aspect": "square",
+   "b": "Moon",
+   "utc": "2026-12-01T06:08:35.454094+00:00"
+  }
+ ],
+ "lunar_event": {
+  "event": "Last Quarter",
+  "utc": "2026-12-01T06:08:35.454122+00:00",
+  "sign": "Virgo",
+  "degree": 9.05
+ },
+ "moon": {
+  "illumination": 45,
+  "waxing": false,
+  "phase": "Last Quarter"
+ },
+ "phase_label": "Last Quarter Moon",
+ "moon_house_by_sign": {
+  "Aries": 6,
+  "Taurus": 5,
+  "Gemini": 4,
+  "Cancer": 3,
+  "Leo": 2,
+  "Virgo": 1,
+  "Libra": 12,
+  "Scorpio": 11,
+  "Sagittarius": 10,
+  "Capricorn": 9,
+  "Aquarius": 8,
+  "Pisces": 7
+ },
+ "retrograde": [
+  "Saturn",
+  "Uranus",
+  "Neptune"
+ ]
+}
