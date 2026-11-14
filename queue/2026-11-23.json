@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-23",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-23.json",
+ "caption": "The Moon is nearly full and glowing in Taurus.\n\nThe Moon is 99% lit in Taurus today. She faced Mercury overnight, and the Sun makes a friendly trine to Neptune tonight. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Mon · Waxing gibbous · Sagittarius season",
+   "headline": "The Moon is nearly full and glowing in Taurus.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon glows in your sign all day, nearly full. Venus, your ruling planet, is moving forward in Libra: treat yourself kindly.",
+   "question": "What does treating myself well look like today?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon lights your house of travel and big ideas. She faced Mercury, your ruling planet, overnight: rethink one plan.",
+   "question": "Which plan deserves a fresh perspective?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon glows in your house of joy and romance. Tonight the Sun sends Neptune a friendly trine: let yourself daydream.",
+   "question": "What daydream keeps coming back to me?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Earth friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

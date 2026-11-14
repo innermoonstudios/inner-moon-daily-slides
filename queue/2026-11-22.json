@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-22",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-22.json",
+ "caption": "Sagittarius season arrived overnight. Pack a dream.\n\nThe Sun moved into Sagittarius overnight. The Moon moved into Taurus early this morning and squares Pluto late this morning. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sun · Waxing gibbous · Sagittarius season",
+   "headline": "Sagittarius season arrived overnight. Pack a dream.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon moved into your house of values early this morning. Spend today on what makes you feel worthy, just as you are.",
+   "question": "What makes me feel rich that costs nothing?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon sent Mars, in your sign, a friendly trine overnight, then moved into your career house. Aim your fire at one goal.",
+   "question": "Which ambition makes me sit up straighter?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Sun moved into your sign overnight: your birthday season is here. The Moon is in your routines house: plan a treat.",
+   "question": "How would I like to celebrate this new year of me?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your birthday season.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

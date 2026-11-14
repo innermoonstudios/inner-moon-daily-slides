@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-18",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-18.json",
+ "caption": "The Moon and Mercury swapped notes this morning.\n\nEarly this morning the Moon in Pisces made a friendly trine to Mercury, and overnight the Sun squared Jupiter in Leo. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wed · Waxing gibbous · Scorpio season",
+   "headline": "The Moon and Mercury swapped notes this morning.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon drifts through your twelfth house, your quiet zone. Saturn is retrograde in your sign: rest is part of the plan.",
+   "question": "What would rest look like if I let it be easy?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "Overnight the Sun squared Jupiter, in your sign: a tense angle that asks you to share the spotlight. The Moon is in your bonds house.",
+   "question": "Who would I love to shine beside?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Moon settles into your home zone. Jupiter, your ruling planet, felt a tense square from the Sun overnight: go easy at home.",
+   "question": "Which small comfort could I give myself tonight?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

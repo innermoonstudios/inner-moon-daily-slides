@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-21",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-21.json",
+ "caption": "The Moon makes eyes at Venus tonight.\n\nThe Moon in Aries faces Venus in Libra tonight, an opposition, and sends Jupiter a friendly trine later tonight. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Saturday · Waxing gibbous · Scorpio season",
+   "headline": "The Moon makes eyes at Venus tonight.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon lights your career house. Tonight she makes a friendly trine to Jupiter: let yourself picture the bigger version.",
+   "question": "What would I go for if I felt fully ready?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The Moon tidies your house of daily routines, and Mercury is moving forward in your sign. Give one weekend habit a fresh start.",
+   "question": "Which weekend ritual would refill my cup?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon sits in your house of values. Facing Venus tonight, she asks what you treasure most: spend your time on that.",
+   "question": "Where does my time feel most well spent?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

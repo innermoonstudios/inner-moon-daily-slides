@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-17",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-17.json",
+ "caption": "First Quarter Moon this morning. Time to commit.\n\nThe First Quarter Moon in Aquarius arrived this morning. She faces Mars and Jupiter today and moves into Pisces this afternoon. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tue · First Quarter Moon · Scorpio season",
+   "headline": "First Quarter Moon this morning. Time to commit.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The First Quarter Moon lit your house of deep bonds this morning. Let one heartfelt intention become a real commitment.",
+   "question": "Which bond am I ready to invest in more deeply?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The First Quarter Moon arrived in your home zone this morning, and Mercury is moving forward in your sign. Choose one cozy change.",
+   "question": "What would make home feel like a soft landing?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon moves into your sign this afternoon, after a First Quarter in your quiet zone this morning. Make a wish just for you.",
+   "question": "What would I ask for if no one was listening?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

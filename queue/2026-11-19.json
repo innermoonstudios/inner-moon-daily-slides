@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-19",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-19.json",
+ "caption": "Tonight the Sun and Moon share a warm glance.\n\nThe Sun squares Mars around lunchtime, a tense angle, and makes a friendly trine to the Moon in Pisces tonight. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Thu · Waxing gibbous · Scorpio season",
+   "headline": "Tonight the Sun and Moon share a warm glance.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon visits your friendship house, and tonight the Sun sends her a friendly trine. Let a good friend in on your plans.",
+   "question": "Which friend feels like a warm blanket?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon lights your partnership house, in your opposite sign. Tonight's friendly trine from the Sun invites a sweet one-on-one.",
+   "question": "What do I love receiving from the people close to me?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon is in your house of words. The Sun squares Mars around lunchtime, so pause before you reply, then speak kindly.",
+   "question": "What would I say if I trusted it would land well?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your evening journal.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
