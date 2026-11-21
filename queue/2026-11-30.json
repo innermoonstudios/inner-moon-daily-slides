@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-30",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-30.json",
+ "caption": "The Moon had a late-night date with Jupiter.\n\nOvernight the Sun made a friendly trine to Saturn and the Moon met Jupiter in Leo. She moves into Virgo this morning and meets Mars around lunchtime. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Mon · Waning gibbous · Sagittarius season",
+   "headline": "The Moon had a late-night date with Jupiter.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon moves into your routines house this morning and meets Mars, your ruling planet, around lunchtime. Start one fresh habit.",
+   "question": "Which new habit would make Monday feel lighter?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "Overnight the Moon met Jupiter in your sign. This morning she moves into your house of values: honor what you are worth.",
+   "question": "What am I worth that I sometimes forget?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "Overnight the Sun, in your sign, made a friendly trine to Saturn. The Moon lights your career house: take one steady step.",
+   "question": "What steady step moves my dream forward?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

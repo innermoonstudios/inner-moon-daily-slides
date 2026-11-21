@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-25",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-25.json",
+ "caption": "Mars packs his bags for Virgo this evening.\n\nThe Moon is in Gemini all day. The Sun faces Uranus this evening, Mars moves into Virgo this evening, and the Moon sends Venus a friendly trine late tonight. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wed · Waning gibbous · Sagittarius season",
+   "headline": "Mars packs his bags for Virgo this evening.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon drifts through your twelfth house, your quiet zone. Late tonight she sends Venus a sweet trine: rest, then dream.",
+   "question": "What would I dream about if I let myself rest?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The Moon is in your house of deep bonds, and Mercury is in your sign. Say the tender thing to someone you trust.",
+   "question": "Who has earned a little more of my trust?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon lights your home zone. Neptune, your modern ruler, is retrograde, so it seems to drift backward: slow down at home.",
+   "question": "Where at home do I feel most like myself?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

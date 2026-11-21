@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-27",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-27.json",
+ "caption": "The Moon wants a heart-to-heart this morning.\n\nThe Moon is in Cancer all day and makes a friendly trine to Mercury in Scorpio this morning. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Fri · Waning gibbous · Sagittarius season",
+   "headline": "The Moon wants a heart-to-heart this morning.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon is in your house of words, and this morning she trines Mercury, a friendly angle. Send the kind message.",
+   "question": "What kind words have I been saving for someone?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon lights your friendship house, and Mars is in your sign. Spend your energy on a friend who cheers you on.",
+   "question": "Who cheers me on without being asked?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon is in your partnership house, across from your sign. Saturn, your ruling planet, is retrograde: go slow and sweet.",
+   "question": "What do I want to build with someone I trust?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for a cozy night in.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

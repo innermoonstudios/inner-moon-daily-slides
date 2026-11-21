@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-26",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-26.json",
+ "caption": "The Moon came home to Cancer early this morning.\n\nThe Moon moved into Cancer early this morning. She squares Neptune this morning and Saturn this evening, both in Aries. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Thu · Waning gibbous · Sagittarius season",
+   "headline": "The Moon came home to Cancer early this morning.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon moved into your home zone early this morning. This evening she squares Saturn, in your sign: keep table talk gentle.",
+   "question": "Who makes home feel warm for me?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon rests in your quiet zone. Overnight she sent Jupiter, in your sign, a friendly sextile: count your blessings softly.",
+   "question": "Which quiet blessing am I most thankful for?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Sun is in your sign, and the Moon visits your house of deep bonds. Let someone close see how grateful you are.",
+   "question": "Who would I love to thank out loud today?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

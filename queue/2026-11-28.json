@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-28",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-28.json",
+ "caption": "The Moon strutted into Leo this morning.\n\nThe Moon moved into Leo early this morning, and Venus sent Jupiter a friendly sextile around 7 am. The Sun makes a friendly trine to the Moon this evening. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sat · Waning gibbous · Sagittarius season",
+   "headline": "The Moon strutted into Leo this morning.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon is in your house of words. Around midday she sends Uranus, in your sign, a friendly sextile: say the unexpected.",
+   "question": "What surprising idea wants to be shared?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon lights your friendship house. Early this morning Venus, your ruler, sent Jupiter a friendly sextile: be generous.",
+   "question": "Which friend could use a little extra love?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon is in your partnership house, across from your sign. Around noon she faces Pluto, in your sign: meet halfway.",
+   "question": "Where could I meet someone halfway?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

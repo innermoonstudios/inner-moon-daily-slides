@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-29",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-29.json",
+ "caption": "Uranus and Pluto traded friendly glances.\n\nUranus made a friendly trine to Pluto early this morning. The Moon is in Leo all day and squares Mercury in Scorpio this afternoon. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sun · Waning gibbous · Sagittarius season",
+   "headline": "Uranus and Pluto traded friendly glances.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon, your ruling planet, warms your house of values. Spend your Sunday on what you truly treasure.",
+   "question": "Which treasure of mine deserves more of my time?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The Moon lights your career house and squares Mercury, in your sign, this afternoon, a tense angle. Plan, then pause.",
+   "question": "Which goal deserves a calmer plan?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon tends your house of daily routines. Neptune, your modern ruler, is retrograde: keep today's rhythm slow and kind.",
+   "question": "Which small routine makes me feel held?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

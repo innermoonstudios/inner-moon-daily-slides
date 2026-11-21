@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-24",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-11-24.json",
+ "caption": "The Full Moon in Gemini has a lot to say.\n\nThe Moon moved into Gemini early this morning and turns full there mid-morning. She meets Uranus around midday and sends Saturn a friendly sextile tonight. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tue · Full Moon · Sagittarius season",
+   "headline": "The Full Moon in Gemini has a lot to say.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Full Moon peaks in your sign this morning, then meets Uranus, also in Gemini, around midday. Let yourself be seen.",
+   "question": "What part of me is ready for the spotlight?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Full Moon lights your house of travel and big ideas. Venus, your ruling planet, is in your sign: dream generously.",
+   "question": "Where would my heart travel if I let it?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Full Moon glows in your house of joy. Late this morning she sends Pluto, in your sign, a friendly trine: play a little.",
+   "question": "What lights me up when no one is watching?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for Full Moon night.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
