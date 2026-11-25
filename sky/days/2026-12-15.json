@@ -1,0 +1,153 @@
+{
+ "date": "2026-12-15",
+ "tz": "America/New_York",
+ "positions": {
+  "Sun": {
+   "sign": "Sagittarius",
+   "degree": 23.73,
+   "retrograde": false,
+   "sign_start": "Sagittarius",
+   "sign_end": "Sagittarius",
+   "signs_today": [
+    "Sagittarius"
+   ]
+  },
+  "Moon": {
+   "sign": "Pisces",
+   "degree": 6.28,
+   "retrograde": false,
+   "sign_start": "Pisces",
+   "sign_end": "Pisces",
+   "signs_today": [
+    "Pisces"
+   ]
+  },
+  "Mercury": {
+   "sign": "Sagittarius",
+   "degree": 14.32,
+   "retrograde": false,
+   "sign_start": "Sagittarius",
+   "sign_end": "Sagittarius",
+   "signs_today": [
+    "Sagittarius"
+   ]
+  },
+  "Venus": {
+   "sign": "Scorpio",
+   "degree": 8.43,
+   "retrograde": false,
+   "sign_start": "Scorpio",
+   "sign_end": "Scorpio",
+   "signs_today": [
+    "Scorpio"
+   ]
+  },
+  "Mars": {
+   "sign": "Virgo",
+   "degree": 6.68,
+   "retrograde": false,
+   "sign_start": "Virgo",
+   "sign_end": "Virgo",
+   "signs_today": [
+    "Virgo"
+   ]
+  },
+  "Jupiter": {
+   "sign": "Leo",
+   "degree": 27.01,
+   "retrograde": true,
+   "sign_start": "Leo",
+   "sign_end": "Leo",
+   "signs_today": [
+    "Leo"
+   ]
+  },
+  "Saturn": {
+   "sign": "Aries",
+   "degree": 7.95,
+   "retrograde": false,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Uranus": {
+   "sign": "Gemini",
+   "degree": 2.87,
+   "retrograde": true,
+   "sign_start": "Gemini",
+   "sign_end": "Gemini",
+   "signs_today": [
+    "Gemini"
+   ]
+  },
+  "Neptune": {
+   "sign": "Aries",
+   "degree": 1.62,
+   "retrograde": false,
+   "sign_start": "Aries",
+   "sign_end": "Aries",
+   "signs_today": [
+    "Aries"
+   ]
+  },
+  "Pluto": {
+   "sign": "Aquarius",
+   "degree": 3.9,
+   "retrograde": false,
+   "sign_start": "Aquarius",
+   "sign_end": "Aquarius",
+   "signs_today": [
+    "Aquarius"
+   ]
+  }
+ },
+ "ingresses": [],
+ "stations": [],
+ "aspects": [
+  {
+   "a": "Moon",
+   "aspect": "trine",
+   "b": "Venus",
+   "utc": "2026-12-15T21:32:25.215271+00:00"
+  },
+  {
+   "a": "Moon",
+   "aspect": "opposite",
+   "b": "Mars",
+   "utc": "2026-12-15T17:48:51.426165+00:00"
+  },
+  {
+   "a": "Moon",
+   "aspect": "square",
+   "b": "Uranus",
+   "utc": "2026-12-15T10:17:56.413231+00:00"
+  }
+ ],
+ "lunar_event": null,
+ "moon": {
+  "illumination": 35,
+  "waxing": true,
+  "phase": "Waxing Crescent"
+ },
+ "phase_label": "Waxing crescent",
+ "moon_house_by_sign": {
+  "Aries": 12,
+  "Taurus": 11,
+  "Gemini": 10,
+  "Cancer": 9,
+  "Leo": 8,
+  "Virgo": 7,
+  "Libra": 6,
+  "Scorpio": 5,
+  "Sagittarius": 4,
+  "Capricorn": 3,
+  "Aquarius": 2,
+  "Pisces": 1
+ },
+ "retrograde": [
+  "Jupiter",
+  "Uranus"
+ ]
+}
