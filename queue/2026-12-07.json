@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-07",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-07.json",
+ "caption": "The Moon trades Scorpio for Sagittarius today.\n\nThe Moon moves from Scorpio into Sagittarius mid-morning and meets Mercury this afternoon. Early this morning Mercury sent Neptune a friendly trine. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Mon · Waning crescent · Sagittarius season",
+   "headline": "The Moon trades Scorpio for Sagittarius today.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon, your ruler, moves into your house of routines mid-morning. Give your Monday a gentle, doable shape.",
+   "question": "What would make this week feel manageable?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The Moon leaves your sign mid-morning for your house of values. Venus is in your sign: treat yourself like a treasure.",
+   "question": "What do I value most about myself?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon lights your career house. Early this afternoon she trines Neptune, your modern ruler, a friendly angle: dream big.",
+   "question": "Where would I go if I trusted my dreams?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

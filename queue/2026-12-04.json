@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-04",
+ "element": "Fire",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-04.json",
+ "caption": "Venus slipped into Scorpio overnight. Mysterious.\n\nVenus moved into Scorpio overnight. The Moon is in Libra, Mars squares Uranus this afternoon, and the Moon sends Jupiter a friendly sextile this evening. Swipe for Aries, Leo and Sagittarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Fire friend. 🌙\n\n#firesigns #aries #leo #sagittarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Fri · Waning crescent · Sagittarius season",
+   "headline": "Venus slipped into Scorpio overnight. Mysterious.",
+   "sub": "Today's sky for the Fire signs"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Aries",
+   "body": "The Moon is in your partnership house. This afternoon Mars, your ruler, squares Uranus, a tense angle: stay flexible.",
+   "question": "Where could I let a plan bend a little?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Leo",
+   "body": "The Moon is in your house of words. This evening she sends Jupiter, in your sign, a friendly sextile: say the big thing.",
+   "question": "What compliment have I been holding back?"
+  },
+  {
+   "template": "sign",
+   "element": "Fire",
+   "sign": "Sagittarius",
+   "body": "The Sun is in your sign, and the Moon lights your friendship house. Plan something fun with the people who get you.",
+   "question": "Who makes me laugh the hardest?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Fire friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

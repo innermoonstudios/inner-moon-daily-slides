@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-06",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-06.json",
+ "caption": "Mercury hopped into Sagittarius overnight.\n\nMercury moved into Sagittarius overnight. The Moon is a slim waning crescent in Scorpio all day, lovely for rest. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sun · Waning crescent · Sagittarius season",
+   "headline": "Mercury hopped into Sagittarius overnight.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "Mercury, your ruler, moved into Sagittarius overnight. The Moon tends your house of routines: reset one small habit.",
+   "question": "What small habit would make my week sweeter?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon lights your house of values, and Venus, your ruler, is in Scorpio. Spend Sunday on what feels truly yours.",
+   "question": "What feels most precious to me right now?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon is in your career house, and Pluto is in your sign. Dream about the week ahead, then let Sunday be Sunday.",
+   "question": "Where do I want my work to take me?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

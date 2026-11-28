@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-03",
+ "element": "Water",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-03.json",
+ "caption": "The Sun and Moon swap smiles at lunchtime.\n\nThe Moon is in Libra all day. She faced Saturn early this morning, and the Sun sends her a friendly sextile around lunchtime. Swipe for Cancer, Scorpio and Pisces, plus one question to journal on today.\n\nSave this for tonight, or send it to your Water friend. 🌙\n\n#watersigns #cancer #scorpio #pisces #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Thu · Waning crescent · Sagittarius season",
+   "headline": "The Sun and Moon swap smiles at lunchtime.",
+   "sub": "Today's sky for the Water signs"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Cancer",
+   "body": "The Moon, your ruler, is in your home zone. Around lunchtime the Sun sends her a friendly sextile: nest a little.",
+   "question": "Where at home do I want more light?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Scorpio",
+   "body": "The Moon drifts through your quiet zone, and Mercury is in your sign. Write down what your intuition whispers.",
+   "question": "What is my intuition trying to tell me?"
+  },
+  {
+   "template": "sign",
+   "element": "Water",
+   "sign": "Pisces",
+   "body": "The Moon lights your house of deep bonds. Neptune, your modern ruler, is retrograde, so it seems to drift backward.",
+   "question": "Who deserves a more honest heart-to-heart?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Water friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

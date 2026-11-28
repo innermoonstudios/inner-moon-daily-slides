@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-02",
+ "element": "Air",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-02.json",
+ "caption": "The Moon sashays into Libra this afternoon.\n\nThe Moon starts the day in Virgo and moves into Libra this afternoon. Tonight she sends Uranus and Pluto friendly trines. Swipe for Gemini, Libra and Aquarius, plus one question to journal on today.\n\nSave this for tonight, or send it to your Air friend. 🌙\n\n#airsigns #gemini #libra #aquarius #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Wed · Waning crescent · Sagittarius season",
+   "headline": "The Moon sashays into Libra this afternoon.",
+   "sub": "Today's sky for the Air signs"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Gemini",
+   "body": "The Moon starts the day in your home zone. Tonight she sends Uranus, in your sign, a friendly trine: try a new idea.",
+   "question": "What fresh idea wants room in my life?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Libra",
+   "body": "The Moon rests in your quiet zone, then moves into your sign this afternoon, where Venus, your ruler, waits. Glow.",
+   "question": "What would I love to be known for?"
+  },
+  {
+   "template": "sign",
+   "element": "Air",
+   "sign": "Aquarius",
+   "body": "The Moon visits your house of deep bonds. Tonight she sends Pluto, in your sign, a friendly trine: open up a little.",
+   "question": "Who do I feel safe letting in?"
+  },
+  {
+   "template": "cta",
+   "headline": "Send this to your Air friend.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

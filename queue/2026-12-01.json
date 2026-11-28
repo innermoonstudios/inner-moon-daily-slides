@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-01",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-01.json",
+ "caption": "The Last Quarter Moon tidied up overnight.\n\nThe Moon reached her Last Quarter in Virgo overnight, a half-lit pause to clear space. She stays in Virgo all day, alongside Mars. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Tue · Last Quarter · Sagittarius season",
+   "headline": "The Last Quarter Moon tidied up overnight.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon is in Virgo, lighting your house of joy. She reached her Last Quarter overnight: drop one chore and play.",
+   "question": "What would I make just for the fun of it?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon is in your sign, and so is Mars. She reached her Last Quarter overnight: clear one thing off your plate.",
+   "question": "What am I ready to set down with love?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon lights your house of travel and big ideas. Saturn, your ruler, is retrograde: revisit an old dream gently.",
+   "question": "Where would I love to wander next?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for your next Last Quarter.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}

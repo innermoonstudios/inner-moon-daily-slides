@@ -1,0 +1,41 @@
+{
+ "date": "2026-12-05",
+ "element": "Earth",
+ "status": "approved",
+ "sky_file": "sky/days/2026-12-05.json",
+ "caption": "The Moon and Venus cuddled up overnight.\n\nThe Moon is in Scorpio all day. She met Venus overnight, then sent Mars a friendly sextile early this morning. Swipe for Taurus, Virgo and Capricorn, plus one question to journal on today.\n\nSave this for tonight, or send it to your Earth friend. 🌙\n\n#earthsigns #taurus #virgo #capricorn #moonjournal",
+ "slides": [
+  {
+   "template": "hook",
+   "kicker": "Sat · Waning crescent · Sagittarius season",
+   "headline": "The Moon and Venus cuddled up overnight.",
+   "sub": "Today's sky for the Earth signs"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Taurus",
+   "body": "The Moon is in your partnership house, across from your sign. Overnight she met Venus, your ruler: be sweet to your person.",
+   "question": "Who do I want to spoil a little this weekend?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Virgo",
+   "body": "The Moon lights your house of words. Early this morning she sent Mars, in your sign, a friendly sextile: speak up warmly.",
+   "question": "What do I want to ask for, plainly and kindly?"
+  },
+  {
+   "template": "sign",
+   "element": "Earth",
+   "sign": "Capricorn",
+   "body": "The Moon visits your friendship house. Saturn, your ruler, is retrograde, so it seems to drift backward: call an old friend.",
+   "question": "Who from my past would love to hear from me?"
+  },
+  {
+   "template": "cta",
+   "headline": "Save this for a slow Saturday.",
+   "sub": "Daily prompts and moon journals"
+  }
+ ]
+}
